@@ -1,0 +1,58 @@
+
+<section class="store-container">
+    <div class="product-top">
+        <div class="product-img">
+            <img ng-src="{{ $ctrl.jackets.imageUrl }}" alt="{{ $ctrl.jackets.id }}">
+        </div>
+        <div class="right-container">
+            <img ng-src="{{ $ctrl.jackets.logo }}"/>
+            <p>{{ $ctrl.jackets.name }}</p>
+            <p>Sale {{ $ctrl.jackets.price }}</p>
+        </div>
+    </div>
+    <div class="product-bottom">
+        <div class="description-container">
+            <h3 class="desc-title">{{ $ctrl.jackets.descTitle }}</h3>
+            <p class="description">{{ $ctrl.jackets.description }}</p>
+            <ul class="desc-list">
+                <li ng-repeat="list in $ctrl.jackets.listDescription">{{ list }}</li>
+            </ul>
+        </div>
+        <div class="tech-specs-container">
+            <div class="tech-left">
+                <div class="row">
+                    <p>Material</p>
+                    <p>{{ $ctrl.jackets.techSpecs.material }}</p>
+                </div>
+                <div class="row">
+                    <p>Insulation</p>
+                    <p>{{ $ctrl.jackets.techSpecs.insulation }}</p>
+                </div>
+                <div class="row">
+                    <p>Fit</p>
+                    <p>{{ $ctrl.jackets.techSpecs.fit }}</p>
+                </div>
+                <div class="row">
+                    <p>Length</p>
+                    <p>{{ $ctrl.jackets.techSpecs.length }}</p>
+                </div>
+            </div>
+            <div class="tech-right">
+                <div class="row">
+                    <p>Hood</p>
+                    <p>{{ $ctrl.jackets.techSpecs.hood }}</p>
+                </div>
+                <div class="row">
+                    <p>Pockets</p>
+                    <p>{{ $ctrl.jackets.techSpecs.pockets }}</p>
+                </div>
+                <div class="row">
+                    <p>Recommended Use</p>
+                    <p>{{ $ctrl.jackets.techSpecs.recommendedUse }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
