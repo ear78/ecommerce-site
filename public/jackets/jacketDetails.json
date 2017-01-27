@@ -1,0 +1,94 @@
+[
+    {
+        "id": "penfield-bowerbridge-down-jacket",
+        "logo": "/img/logos/Penfieldlogo2016.jpg",
+        "imageUrl": "/img/jackets/rdBig.jpg",
+        "imageThumb": "./img/jackets/rdSmall.jpg",
+        "name": "Penfield Bowerbridge Down Jacket",
+        "price": "$199.46 - $284.95",
+        "descTitle": "lightweight Warmth. Timeless Style",
+        "description": "From outdoor explorations on the weekend to cold commutes during the week, the Penfield Men's Bowerbridge Down Jacket offers warmth with a classic look. A lightweight and tough nylon ripstop shell shields you from rain and snow, while the lofty down insulation traps heat to keep you toasty, even when temps dip. Pull the adjustable hood over your head when the snow begins to flurry or remove it on warm, sunny days.",
+        "listDescription": [
+            "A classic down jacket for versatile winter warmth", "Durable shell resits water and wind", "Down insultaed provides excellent weight-to-warmth ratio", "Detachable and adjustable hood with leather cord lock", "Adjustable cuffs and hem for a personalized fit"
+        ],
+        "techSpecs": {
+                "material": "nylon, DWR finish",
+                "insulation": "550-fill down",
+                "fit": "regular",
+                "length": "hip",
+                "hood": "yes, removable and adjustable",
+                "pockets": "2 hand snaps",
+                "recommendedUse": "casual"
+        }
+
+    },
+    {
+        "id": "penfield-bowerbridge-down-jacket",
+        "logo": "/img/logos/Patagonialogo2015.jpg",
+        "imageUrl": "/img/jackets/blargeBig.jpg",
+        "imageThumb": "./img/jackets/rdSmall.jpg",
+        "name": "Penfield Bowerbridge Down Jacket",
+        "price": "$199.46 - $284.95",
+        "descTitle": "Urban Style Meets Technical Heritage.",
+        "description": "Fight off rosy-nose temps by donning the urban-styled Patagonia Wanaka Men's Down Jacket, which'll cloak you in fully traceable 600-fill duck down and a water-resistant 2-layer H2NO Performance Standard fabric and DWR coating. You'll look like a boss on the wintery walk to work, as the Wanaka fights off snow and sleet and traps heat with its removable insulated hood, drop tail, and stand-up collar. Gusseted underarms make it a simple proposition to hail a cab or give someone a high-five when they compliment your style, and plenty of pockets hold your phone, hands, and secret treasure maps.",
+        "listDescription": [
+            "Nylon and polyester with 2-layer H2NO Performance Standard laminate", "DWR coating", "Fully traceable 600-fill duck down", "Removable, insulated hood", "Gusseted underarms", "Four external pockets and one internal pocket", "Stand-up snap collar and drop-tail hem", "Front zipper with snap storm flap and snap-closure cuffs"
+        ],
+        "techSpecs": {
+                "material": "nylon, DWR finish",
+                "insulation": "550-fill down",
+                "fit": "regular",
+                "length": "hip",
+                "hood": "yes, removable and adjustable",
+                "pockets": "2 hand snaps",
+                "recommendedUse": "casual"
+        }
+
+    },
+    {
+        "id": "penfield-bowerbridge-down-jacket",
+        "logo": "/img/logos/Penfieldlogo2016.jpg",
+        "imageUrl": "/img/jackets/rdBig.jpg",
+        "imageThumb": "./img/jackets/rdSmall.jpg",
+        "name": "Penfield Bowerbridge Down Jacket",
+        "price": "$199.46 - $284.95",
+        "descTitle": "lightweight Warmth. Timeless Style",
+        "description": "From outdoor explorations on the weekend to cold commutes during the week, the Penfield Men's Bowerbridge Down Jacket offers warmth with a classic look. A lightweight and tough nylon ripstop shell shields you from rain and snow, while the lofty down insulation traps heat to keep you toasty, even when temps dip. Pull the adjustable hood over your head when the snow begins to flurry or remove it on warm, sunny days.",
+        "listDescription": [
+            "A classic down jacket for versatile winter warmth", "Durable shell resits water and wind", "Down insultaed provides excellent weight-to-warmth ratio", "Detachable and adjustable hood with leather cord lock", "Adjustable cuffs and hem for a personalized fit"
+        ],
+        "techSpecs": {
+                "material": "nylon, DWR finish",
+                "insulation": "550-fill down",
+                "fit": "regular",
+                "length": "hip",
+                "hood": "yes, removable and adjustable",
+                "pockets": "2 hand snaps",
+                "recommendedUse": "casual"
+        }
+
+    },
+    {
+        "id": "penfield-bowerbridge-down-jacket",
+        "logo": "/img/logos/Penfieldlogo2016.jpg",
+        "imageUrl": "/img/jackets/rdBig.jpg",
+        "imageThumb": "./img/jackets/rdSmall.jpg",
+        "name": "Penfield Bowerbridge Down Jacket",
+        "price": "$199.46 - $284.95",
+        "descTitle": "lightweight Warmth. Timeless Style",
+        "description": "From outdoor explorations on the weekend to cold commutes during the week, the Penfield Men's Bowerbridge Down Jacket offers warmth with a classic look. A lightweight and tough nylon ripstop shell shields you from rain and snow, while the lofty down insulation traps heat to keep you toasty, even when temps dip. Pull the adjustable hood over your head when the snow begins to flurry or remove it on warm, sunny days.",
+        "listDescription": [
+            "A classic down jacket for versatile winter warmth", "Durable shell resits water and wind", "Down insultaed provides excellent weight-to-warmth ratio", "Detachable and adjustable hood with leather cord lock", "Adjustable cuffs and hem for a personalized fit"
+        ],
+        "techSpecs": {
+                "material": "nylon, DWR finish",
+                "insulation": "550-fill down",
+                "fit": "regular",
+                "length": "hip",
+                "hood": "yes, removable and adjustable",
+                "pockets": "2 hand snaps",
+                "recommendedUse": "casual"
+        }
+
+    }
+]

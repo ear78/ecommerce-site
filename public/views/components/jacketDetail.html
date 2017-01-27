@@ -8,6 +8,10 @@
             <img ng-src="{{ $ctrl.jackets.logo }}"/>
             <p>{{ $ctrl.jackets.name }}</p>
             <p>Sale {{ $ctrl.jackets.price }}</p>
+            <select name="select" ng-model="$ctrl.chooseColor">
+                <option value="red" selected>Red</option>
+                <option value="Navy">Navy</option>
+            </select>
         </div>
     </div>
     <div class="product-bottom">
@@ -21,34 +25,34 @@
         <div class="tech-specs-container">
             <div class="tech-left">
                 <div class="row">
-                    <p>Material</p>
-                    <p>{{ $ctrl.jackets.techSpecs.material }}</p>
+                    <p class="heading">Material</p>
+                    <p class="info">{{ $ctrl.jackets.techSpecs.material }}</p>
                 </div>
                 <div class="row">
-                    <p>Insulation</p>
-                    <p>{{ $ctrl.jackets.techSpecs.insulation }}</p>
+                    <p class="heading">Insulation</p>
+                    <p class="info">{{ $ctrl.jackets.techSpecs.insulation }}</p>
                 </div>
                 <div class="row">
-                    <p>Fit</p>
-                    <p>{{ $ctrl.jackets.techSpecs.fit }}</p>
+                    <p class="heading">Fit</p>
+                    <p class="info">{{ $ctrl.jackets.techSpecs.fit }}</p>
                 </div>
                 <div class="row">
-                    <p>Length</p>
-                    <p>{{ $ctrl.jackets.techSpecs.length }}</p>
+                    <p class="heading">Length</p>
+                    <p class="info">{{ $ctrl.jackets.techSpecs.length }}</p>
                 </div>
             </div>
             <div class="tech-right">
                 <div class="row">
-                    <p>Hood</p>
-                    <p>{{ $ctrl.jackets.techSpecs.hood }}</p>
+                    <p class="heading">Hood</p>
+                    <p class="info">{{ $ctrl.jackets.techSpecs.hood }}</p>
                 </div>
                 <div class="row">
-                    <p>Pockets</p>
-                    <p>{{ $ctrl.jackets.techSpecs.pockets }}</p>
+                    <p class="heading">Pockets</p>
+                    <p class="info">{{ $ctrl.jackets.techSpecs.pockets }}</p>
                 </div>
                 <div class="row">
-                    <p>Recommended Use</p>
-                    <p>{{ $ctrl.jackets.techSpecs.recommendedUse }}</p>
+                    <p class="heading">Recommended Use</p>
+                    <p class="info">{{ $ctrl.jackets.techSpecs.recommendedUse }}</p>
                 </div>
             </div>
         </div>

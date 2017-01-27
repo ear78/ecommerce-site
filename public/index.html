@@ -3,16 +3,22 @@
     <head>
         <meta charset="utf-8">
         <title>Ecommerce Site</title>
-        <link rel="stylesheet" href="./css/mainStyles.css">
+        <link rel="stylesheet" href="./build/css/main.css">
     </head>
     <body ng-controller="mainCtrl">
 
     <nav class="main-nav">
         <img class="logo" ng-src="./img/logos/earlogo1.svg"/>
-        <a href="#" class="link">Home</a>
+        <div >
+            <a href="#/jackets" class="link">Home</a>
+            <a href="#/jackets/:jacketId" class="link">Home</a>
+        </div>
     </nav>
 
-    <jacket-list></jacket-list>
+    <!-- COMPONENTS -->
+    <jackets></jackets>
+
+    <jacket-detail></jacket-detail>
 
 
 
@@ -23,12 +29,16 @@
     <!-- ANGULAR, ANGULAR ANIMATE, JQUERY -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/core.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-animate.js"></script>
+    <script src="https://use.typekit.net/hwj1xwz.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <!-- JS FILES -->
     <script src="app.module.js"></script>
     <script src="./js/controllers/mainCtrl.js"></script>
-    <script src="./js/components/jacketList.component.js"></script>
+    <script src="./js/components/jacketDetail.component.js"></script>
+    <script src="./js/components/jackets.component.js"></script>
 
     </body>
 </html>

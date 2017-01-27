@@ -1,0 +1,72 @@
+.store-container .product-top {
+    display: flex;
+    margin-bottom: 100px;
+    .product-img,
+    .right-container {
+        width: 49.9%;
+    }
+    .right-container {
+        img {
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 1.25em;
+            margin-bottom: 10px;
+        }
+    }
+    .product-img {
+        img {
+            min-width: 300px;
+            max-width: 100%;
+        }
+    }
+}
+
+.store-container .product-bottom {
+    .description-container {
+        width: 75%;
+        margin: 0 auto 100px;
+        .description {
+            margin-bottom: 40px;
+            line-height: 1.5;
+        }
+    }
+    .desc-title {
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .desc-list {
+        margin-left: 30px;
+        li {
+            list-style-type: disc;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.store-container .tech-specs-container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto 100px;
+    .row {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid gainsboro;
+        padding: 20px;
+        .heading {
+            margin-right: 15px;
+        }
+        .info {
+            font-weight: 100;
+            font-size: .85em;
+            color: $gray;
+        }
+    }
+    .tech-left,
+    .tech-right {
+        width: 45%;
+        margin: 0 20px;
+    }
+
+}

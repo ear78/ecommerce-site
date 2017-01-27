@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  font-family: "europa", sans-serif; }
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 100px; }
+  .main-nav .logo {
+    width: 45px; }
+
+.store-container .product-top {
+  display: flex;
+  margin-bottom: 100px; }
+  .store-container .product-top .product-img,
+  .store-container .product-top .right-container {
+    width: 49.9%; }
+  .store-container .product-top .right-container img {
+    margin-bottom: 15px; }
+  .store-container .product-top .right-container p {
+    font-size: 1.25em;
+    margin-bottom: 10px; }
+  .store-container .product-top .product-img img {
+    min-width: 300px;
+    max-width: 100%; }
+
+.store-container .product-bottom .description-container {
+  width: 75%;
+  margin: 0 auto 100px; }
+  .store-container .product-bottom .description-container .description {
+    margin-bottom: 40px;
+    line-height: 1.5; }
+
+.store-container .product-bottom .desc-title {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 40px; }
+
+.store-container .product-bottom .desc-list {
+  margin-left: 30px; }
+  .store-container .product-bottom .desc-list li {
+    list-style-type: disc;
+    margin-bottom: 15px; }
+
+.store-container .tech-specs-container {
+  display: flex;
+  width: 70%;
+  margin: 0 auto 100px; }
+  .store-container .tech-specs-container .row {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+    padding: 20px; }
+    .store-container .tech-specs-container .row .heading {
+      margin-right: 15px; }
+    .store-container .tech-specs-container .row .info {
+      font-weight: 100;
+      font-size: .85em;
+      color: #969696; }
+  .store-container .tech-specs-container .tech-left,
+  .store-container .tech-specs-container .tech-right {
+    width: 45%;
+    margin: 0 20px; }
+
+.jackets-container {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  align-items: center;
+  transition: all .2s ease; }
+  .jackets-container .shop-items-container {
+    margin-bottom: 60px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    transition: all .2s ease; }
+    .jackets-container .shop-items-container img {
+      max-width: 100%; }
+    .jackets-container .shop-items-container .info-container {
+      padding: 15px; }
+      .jackets-container .shop-items-container .info-container h3 {
+        margin-bottom: 5px; }
+  .jackets-container .shop-items-container:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    box-shadow: 0px 0px 10px #969696; }
+
+@media (min-width: 630px) {
+  .jackets-container {
+    flex-direction: row;
+    justify-content: center; } }
+
+@media (min-width: 768px) {
+  .shop-items-container {
+    margin: 0 2% 60px; } }
+
+@media (min-width: 1024px) {
+  .shop-items-container {
+    width: 21%;
+    margin: 0 1% 60px; } }
