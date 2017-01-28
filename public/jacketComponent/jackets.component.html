@@ -1,0 +1,9 @@
+<section class="jackets-container">
+        <div ng-repeat="jacket in $ctrl.jacketList" class="shop-items-container">
+            <a href="#!/jackets/{{ jacket.id }}"><img ng-src="{{ jacket.imageUrl }}"/></a>
+            <div class="info-container">
+                <h3>{{ jacket.name }}</h3>
+                <p>{{ jacket.price }}</p>
+            </div>
+        </div>
+</section>

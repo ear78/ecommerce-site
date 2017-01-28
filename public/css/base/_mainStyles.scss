@@ -1,11 +1,17 @@
 // VARIABLES /////////////////
 $europa: "europa", sans-serif;
 $gray: #969696;
+$black: #010101;
 
 //////////////////////////////
 
 html {
     font-family: $europa;
+}
+
+a {
+    text-decoration: none;
+    color: $black;
 }
 
 .main-nav {

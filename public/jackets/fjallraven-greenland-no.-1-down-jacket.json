@@ -1,0 +1,25 @@
+[
+        {
+        "id": "penfield-bowerbridge-down-jacket",
+        "logo": "/img/logos/Penfieldlogo2016.jpg",
+        "imageUrl": "/img/jackets/rdBig.jpg",
+        "imageThumb": "./img/jackets/rdSmall.jpg",
+        "name": "Fjallraven Greenland No. 1 Down Jacket",
+        "price": "$199.46 - $284.95",
+        "descTitle": "lightweight Warmth. Timeless Style",
+        "description": "From outdoor explorations on the weekend to cold commutes during the week, the Penfield Men's Bowerbridge Down Jacket offers warmth with a classic look. A lightweight and tough nylon ripstop shell shields you from rain and snow, while the lofty down insulation traps heat to keep you toasty, even when temps dip. Pull the adjustable hood over your head when the snow begins to flurry or remove it on warm, sunny days.",
+        "listDescription": [
+            "A classic down jacket for versatile winter warmth", "Durable shell resits water and wind", "Down insultaed provides excellent weight-to-warmth ratio", "Detachable and adjustable hood with leather cord lock", "Adjustable cuffs and hem for a personalized fit"
+        ],
+        "techSpecs": {
+                "material": "nylon, DWR finish",
+                "insulation": "550-fill down",
+                "fit": "regular",
+                "length": "hip",
+                "hood": "yes, removable and adjustable",
+                "pockets": "2 hand snaps",
+                "recommendedUse": "casual"
+        }
+
+    }
+]
