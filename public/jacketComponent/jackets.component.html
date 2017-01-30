@@ -1,3 +1,6 @@
+<p>
+    <input type="text" placeholder="Search" ng-model="$ctrl.search">
+</p>
 <section class="jackets-container">
         <div ng-repeat="jacket in $ctrl.jacketList" class="shop-items-container">
             <a href="#!/jackets/{{ jacket.id }}"><img ng-src="{{ jacket.imageUrl }}"/></a>
