@@ -114,6 +114,26 @@ a {
     width: 45%;
     margin: 0 20px; }
 
+.input-container {
+  position: relative;
+  width: 40%;
+  margin: 0 auto 50px; }
+  .input-container input {
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+    text-transform: uppercase;
+    font-weight: 100; }
+  .input-container input:focus {
+    outline: none; }
+  .input-container img {
+    width: 26px;
+    position: absolute;
+    right: 0px;
+    top: 8px; }
+
 .jackets-container {
   display: flex;
   flex-direction: column;
