@@ -3,5 +3,5 @@
 angular.module('eApp',[
      'ngRoute',
      'jackets',
-     'jacketDetail'
+     'jacketDetail',
 ]);
