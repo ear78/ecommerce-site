@@ -2,6 +2,8 @@
 $europa: "europa", sans-serif;
 $gray: #969696;
 $black: #010101;
+$brickred: #990000;
+$olive: darkolivegreen;
 
 //////////////////////////////
 
@@ -13,14 +15,3 @@ a {
     text-decoration: none;
     color: $black;
 }
-
-// .main-nav {
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-//     padding: 10px;
-//     margin-bottom: 100px;
-//     .logo {
-//         width: 45px;
-//     }
-// }

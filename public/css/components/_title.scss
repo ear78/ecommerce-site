@@ -1,0 +1,16 @@
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+        margin-bottom: 8px;
+        font-size: 2.5em;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+    h5 {
+        font-weight: 100;
+        color: $brickred;
+        margin-bottom: 35px;
+    }
+}
