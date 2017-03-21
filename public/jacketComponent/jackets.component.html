@@ -2,11 +2,14 @@
     <input type="text" placeholder="Search" ng-model="search">
     <img ng-src="./img/search-outline.svg"/>
 </p>
-<select ng-model="order">
-    <option selected value="name" >Name</option>
-    <option value="price">Price Low to High</option>
-    <option value="-price">Price High to Low</option>
-</select>
+<div class="sort-container">
+    <span class="sort-by">Sort By:</span>
+    <select>
+        <option value="name">Name</option>
+        <option value="price">Price Low to High</option>
+        <option value="-price">Price High to Low</option>
+    </select>
+</div>
 <section class="jackets-container">
         <div ng-repeat="jacket in $ctrl.jacketList | filter:search | orderBy:order" class="shop-items-container">
             <a href="#!/jackets/{{ jacket.id }}"><img ng-src="{{ jacket.imageUrl }}"/></a>

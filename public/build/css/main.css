@@ -116,7 +116,7 @@ a {
 
 .input-container {
   position: relative;
-  width: 40%;
+  width: 60%;
   margin: 0 auto 50px; }
   .input-container input {
     width: 100%;
@@ -133,6 +133,16 @@ a {
     position: absolute;
     right: 0px;
     top: 8px; }
+
+.jackets select {
+  background: white;
+  border: 1px solid;
+  color: lightgray;
+  width: 60%;
+  display: block;
+  margin: 20px auto;
+  border-radius: 2px;
+  height: 20px; }
 
 .jackets-container {
   display: flex;
