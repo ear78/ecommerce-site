@@ -1,5 +1,5 @@
 footer {
-    min-height: 180px;
+    min-height: 170px;
     background: black;
     color: white;
     font-weight: 100;
@@ -12,6 +12,14 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+    .footer-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .copy {
+            color: white;
+        }
+    }
     h1 {
         font-size: 1.5em;
         font-weight: 100;
@@ -23,5 +31,6 @@ footer {
     }
     p {
         color: #969696;
+        margin-bottom: 8px;
     }
 }

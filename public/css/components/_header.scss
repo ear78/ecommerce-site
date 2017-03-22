@@ -65,7 +65,7 @@
 }
 
 .sidemenu-container ul {
-    transition: all .3s ease;
+    transition: opacity .075s ease, transform 1s ease;
 }
 
 .sidemenu-container ul.list-active {
@@ -75,7 +75,7 @@
 }
 
 .sidemenu-container .sidemenu-logo {
-    transition: all .3s ease;
+    transition: opacity .075s ease, transform 1s ease;
 }
 
 .sidemenu-container .sidemenu-logo-active {

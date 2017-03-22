@@ -1,17 +1,20 @@
+<div class="sort-container">
+    <span class="sort-by">Sort By:
+        <!-- <i class="material-icons">keyboard_arrow_down</i> -->
+</span>
+    <select ng-model="$ctrl.order">
+        <option value="name">Name *</option>
+        <option value="price">Price Low to High *</option>
+        <option value="-price">Price High to Low *</option>
+    </select>
+</div>
 <p class="input-container">
     <input type="text" placeholder="Search" ng-model="search">
     <img ng-src="./img/search-outline.svg"/>
 </p>
-<div class="sort-container">
-    <span class="sort-by">Sort By:</span>
-    <select>
-        <option value="name">Name</option>
-        <option value="price">Price Low to High</option>
-        <option value="-price">Price High to Low</option>
-    </select>
-</div>
+
 <section class="jackets-container">
-        <div ng-repeat="jacket in $ctrl.jacketList | filter:search | orderBy:order" class="shop-items-container">
+        <div ng-repeat="jacket in $ctrl.jacketList | filter:search | orderBy:$ctrl.order" class="shop-items-container">
             <a href="#!/jackets/{{ jacket.id }}"><img ng-src="{{ jacket.imageUrl }}"/></a>
             <div class="info-container">
                 <h3>{{ jacket.name }}</h3>

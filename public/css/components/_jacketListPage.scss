@@ -1,17 +1,33 @@
+.store-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
 .store-container .product-top {
     display: flex;
+    flex-direction: column;
     margin-bottom: 100px;
+    width: 100%;
     .product-img,
     .right-container {
-        width: 49.9%;
+        width: 100%;
+    }
+    .product-img {
+        order: 2;
     }
     .right-container {
+        margin-bottom: 75px;
+        margin-top: 30px;
+        order: 1;
         img {
             margin-bottom: 15px;
         }
         p {
             font-size: 1.25em;
             margin-bottom: 10px;
+        }
+        .sale {
+            color: $brickred;
         }
     }
     .product-img {
@@ -24,7 +40,7 @@
 
 .store-container .product-bottom {
     .description-container {
-        width: 75%;
+        width: 100%;
         margin: 0 auto 100px;
         .description {
             margin-bottom: 40px;
@@ -47,7 +63,8 @@
 
 .store-container .tech-specs-container {
     display: flex;
-    width: 70%;
+    flex-wrap: wrap;
+    width: 100%;
     margin: 0 auto 100px;
     .row {
         display: flex;
@@ -65,8 +82,8 @@
     }
     .tech-left,
     .tech-right {
-        width: 45%;
-        margin: 0 20px;
+        width: 100%;
+        margin: 0 0px;
     }
 
 }
