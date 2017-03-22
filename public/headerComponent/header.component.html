@@ -9,11 +9,12 @@
 <!-- SIDEMENU FOR MOBILE VIEW -->
 <section class="sidemenu-container" ng-class="{'sidemenu-active': $ctrl.isActive}" >
     <i class="material-icons close-menu" ng-click="$ctrl.openMenu()">close</i>
-    <ul>
+    <ul ng-class="{'list-active': $ctrl.isActive}">
         <a href="#!/jackets/penfield-bowerbridge-down-jacket"><li>Penfield</li></a>
         <a href="#!/jackets/penfield-bowerbridge-down-jacket"><li>Patagonia</li></a>
         <a href="#!/jackets/penfield-bowerbridge-down-jacket"><li>Fjallraven</li></a>
         <a href="#!/jackets/penfield-bowerbridge-down-jacket"><li>Norrona</li></a>
     </ul>
+    <i class="material-icons sidemenu-logo" ng-class="{'sidemenu-logo-active': $ctrl.isActive}">change_history</i>
 
 </section>
