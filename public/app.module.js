@@ -2,6 +2,7 @@
 
 angular.module('eApp',[
      'ngRoute',
+     'ngAnimate',
      'jackets',
      'jacketDetail',
 ]);
