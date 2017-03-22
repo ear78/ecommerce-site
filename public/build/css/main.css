@@ -220,3 +220,30 @@ footer {
     font-size: 30px; }
   footer p {
     color: #969696; }
+
+.sidemenu-container {
+  background: rgba(0, 0, 0, 0.92);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  padding-top: 25vh;
+  color: white; }
+  .sidemenu-container ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .sidemenu-container a {
+    color: white; }
+  .sidemenu-container li {
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: 100;
+    text-transform: uppercase; }
+  .sidemenu-container .close-menu {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 30px; }
