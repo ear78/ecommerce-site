@@ -8,10 +8,7 @@
             <img ng-src="{{ $ctrl.jackets.logo }}"/>
             <p>{{ $ctrl.jackets.name }}</p>
             <p class="sale">Sale {{ $ctrl.jackets.price }}</p>
-            <select name="select" ng-model="$ctrl.chooseColor">
-                <option value="red" selected>Red</option>
-                <option value="Navy">Navy</option>
-            </select>
+            <img class="image-thumb" ng-repeat="imageThumb in $ctrl.jackets.imageThumb track by $index" ng-src="{{ $ctrl.jackets.imageThumb[$index] }}" />
         </div>
     </div>
     <div class="product-bottom">
