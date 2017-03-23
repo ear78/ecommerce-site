@@ -3,7 +3,7 @@
         "id": "fjallraven-greenland-no-1-down-jacket",
         "logo": "/img/logos/Fjallravenlogo2015a.jpg",
         "imageUrl": "/img/jackets/uncblunvBig.jpg",
-        "imageThumb": "./img/jackets/rdSmall.jpg",
+        "imageThumb": ["./img/jackets/uncblunv.jpg", "./img/jackets/blagreSmall.jpg"],
         "name": "Fjallraven Greenland No. 1 Down Jacket",
         "price": "$499.95",
         "descTitle": "Stylish Protection.",

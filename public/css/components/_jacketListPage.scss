@@ -1,7 +1,7 @@
 .store-container {
     width: 90%;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 .store-container .product-top {
@@ -15,6 +15,10 @@
     }
     .product-img {
         order: 2;
+        img {
+            min-width: 300px;
+            max-width: 100%;
+        }
     }
     .right-container {
         margin-bottom: 75px;
@@ -29,17 +33,17 @@
         }
         .sale {
             color: $brickred;
+            margin-bottom: 30px;
+        }
+        .image-thumb-container {
+            display: none;
+            text-align: center;
         }
         .image-thumb {
-            max-width: 25%;
+            max-width: 20%;
         }
     }
-    .product-img {
-        img {
-            min-width: 300px;
-            max-width: 100%;
-        }
-    }
+
 }
 
 .store-container .product-bottom {
@@ -93,6 +97,9 @@
 }
 
 @media screen and (min-width:650px){
+    .store-container {
+        padding-top: 50px;
+    }
     .store-container .product-top {
         flex-direction: row;
         .product-img {
@@ -100,6 +107,11 @@
         }
         .right-container {
             width: 65%;
+            .image-thumb-container {
+                display: block;
+                text-align: left;
+            }
         }
+
     }
 }

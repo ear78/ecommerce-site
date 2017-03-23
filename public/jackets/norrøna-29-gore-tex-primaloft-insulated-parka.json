@@ -3,7 +3,7 @@
         "id": "norrøna-29-gore-tex-primaloft-insulated-parka",
         "logo": "/img/logos/norrona.jpg",
         "imageUrl": "/img/jackets/cavBig.jpg",
-        "imageThumb": "./img/jackets/rdSmall.jpg",
+        "imageThumb": ["./img/jackets/cav.jpg", "./img/jackets/cyclSmall.jpg"],
         "name": "Norrøna /29 Gore-Tex Primaloft Insulated Parka",
         "price": "$770.95",
         "descTitle": "A Waterproof, Insulated Parka For The Streets.",

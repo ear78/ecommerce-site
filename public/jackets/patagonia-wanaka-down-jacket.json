@@ -3,7 +3,7 @@
         "id": "patagonia-wanaka-down-jacket ",
         "logo": "/img/logos/Patagonialogo2015.jpg",
         "imageUrl": "/img/jackets/blargeBig.jpg",
-        "imageThumb": "./img/jackets/blagre.jpg",
+        "imageThumb": ["./img/jackets/blagre.jpg", "./img/jackets/indgnSmall.jpg"],
         "name": "Patagonia Wanaka Down Jacket",
         "price": "$339.95",
         "descTitle": "Urban Style Meets Technical Heritage.",
