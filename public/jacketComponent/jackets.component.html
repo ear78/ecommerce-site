@@ -14,7 +14,7 @@
 </p>
 
 <section class="jackets-container">
-        <div ng-repeat="jacket in $ctrl.jacketList | filter:search | orderBy:$ctrl.order" class="shop-items-container">
+        <div ng-repeat="jacket in $ctrl.jacketList | filter:search | orderBy:$ctrl.order" class="shop-items-container jacket-list-item">
             <a href="#!/jackets/{{ jacket.id }}"><img ng-src="{{ jacket.imageUrl }}"/></a>
             <div class="info-container">
                 <h3>{{ jacket.name }}</h3>

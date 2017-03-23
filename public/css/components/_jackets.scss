@@ -52,7 +52,7 @@ jackets .sort-container {
         text-align: center;
         border: none;
         padding: 10px;
-        transition: all .2s ease;
+        width: 100%;
         img {
             max-width: 100%;
         }
@@ -73,6 +73,43 @@ jackets .sort-container {
 }
 
 
+.jacket-list-item.ng-enter {
+  opacity: 0;
+  transform: translate3d(-100px,0,0);
+}
+
+.jacket-list-item.ng-enter-stagger,
+.jacket-list-item.ng-leave-stagger {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+    -webkit-transition-duration:0;
+    transition-duration: 0;
+}
+
+.jacket-list-item.ng-enter,
+.jacket-list-item.ng-leave {
+  transition: 0.5s ease all;
+}
+
+.jacket-list-item.ng-enter.ng-enter-active {
+  opacity: 1;
+  transform: translate3d(0,0,0);
+}
+
+.jacket-list-item.ng-leave {
+  opacity: 1;
+  transform: translate3d(0,0,0);
+}
+
+.jacket-list-item.ng-leave.ng-leave-active {
+  opacity: 0;
+  transform: translate3d(-100px,0,0);
+}
+
+
+
+
+
 
 @media(min-width:630px){
     .jackets-container {
@@ -82,14 +119,28 @@ jackets .sort-container {
 }
 
 @media(min-width:768px){
-    .shop-items-container {
-        margin: 0 2% 60px;
+    jackets .sort-container {
+        max-width: 575px;
     }
+    .input-container {
+        position: relative;
+        max-width: 575px;
+    }
+    .jackets-container {
+        .shop-items-container {
+            width: 45%;
+            margin: 0 2% 60px;
+        }
+    }
+
 }
 
 @media(min-width:1024px){
-    .shop-items-container {
-        width: 21%;
-        margin: 0 1% 60px;
+    .jackets-container {
+        .shop-items-container {
+            width: 21%;
+            margin: 0 1% 60px;
+        }
     }
+
 }

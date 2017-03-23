@@ -2,6 +2,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 50px;
+    .main-logo {
+        font-size: 3.75em;
+    }
     h1 {
         margin-bottom: 8px;
         font-size: 2.5em;
@@ -11,6 +15,5 @@
     h5 {
         font-weight: 100;
         color: $brickred;
-        margin-bottom: 35px;
     }
 }

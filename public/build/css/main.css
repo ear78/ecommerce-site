@@ -58,7 +58,8 @@ a {
 
 .store-container {
   width: 90%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 50px; }
 
 .store-container .product-top {
   display: flex;
@@ -124,6 +125,14 @@ a {
     width: 100%;
     margin: 0 0px; }
 
+@media screen and (min-width: 650px) {
+  .store-container .product-top {
+    flex-direction: row; }
+    .store-container .product-top .product-img {
+      order: 1; }
+    .store-container .product-top .right-container {
+      width: 65%; } }
+
 jackets .sort-container {
   width: 75%;
   margin: 0 auto 30px;
@@ -172,7 +181,7 @@ jackets .sort-container {
     text-align: center;
     border: none;
     padding: 10px;
-    transition: all .2s ease; }
+    width: 100%; }
     .jackets-container .shop-items-container img {
       max-width: 100%; }
     .jackets-container .shop-items-container .info-container {
@@ -184,17 +193,50 @@ jackets .sort-container {
     transform: scale(1.03);
     box-shadow: 0px 0px 10px #969696; }
 
+.jacket-list-item.ng-enter {
+  opacity: 0;
+  transform: translate3d(-100px, 0, 0); }
+
+.jacket-list-item.ng-enter-stagger,
+.jacket-list-item.ng-leave-stagger {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  -webkit-transition-duration: 0;
+  transition-duration: 0; }
+
+.jacket-list-item.ng-enter,
+.jacket-list-item.ng-leave {
+  transition: 0.5s ease all; }
+
+.jacket-list-item.ng-enter.ng-enter-active {
+  opacity: 1;
+  transform: translate3d(0, 0, 0); }
+
+.jacket-list-item.ng-leave {
+  opacity: 1;
+  transform: translate3d(0, 0, 0); }
+
+.jacket-list-item.ng-leave.ng-leave-active {
+  opacity: 0;
+  transform: translate3d(-100px, 0, 0); }
+
 @media (min-width: 630px) {
   .jackets-container {
     flex-direction: row;
     justify-content: center; } }
 
 @media (min-width: 768px) {
-  .shop-items-container {
+  jackets .sort-container {
+    max-width: 575px; }
+  .input-container {
+    position: relative;
+    max-width: 575px; }
+  .jackets-container .shop-items-container {
+    width: 45%;
     margin: 0 2% 60px; } }
 
 @media (min-width: 1024px) {
-  .shop-items-container {
+  .jackets-container .shop-items-container {
     width: 21%;
     margin: 0 1% 60px; } }
 
@@ -203,7 +245,7 @@ jackets .sort-container {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
   background: darkolivegreen; }
   .main-nav .logo {
     width: 45px; }
@@ -271,7 +313,10 @@ jackets .sort-container {
 .title-container {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 50px; }
+  .title-container .main-logo {
+    font-size: 3.75em; }
   .title-container h1 {
     margin-bottom: 8px;
     font-size: 2.5em;
@@ -279,8 +324,7 @@ jackets .sort-container {
     text-transform: uppercase; }
   .title-container h5 {
     font-weight: 100;
-    color: #990000;
-    margin-bottom: 35px; }
+    color: #990000; }
 
 footer {
   min-height: 170px;

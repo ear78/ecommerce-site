@@ -1,6 +1,7 @@
 .store-container {
     width: 90%;
     margin: 0 auto;
+    padding-top: 50px;
 }
 
 .store-container .product-top {
@@ -86,4 +87,16 @@
         margin: 0 0px;
     }
 
+}
+
+@media screen and (min-width:650px){
+    .store-container .product-top {
+        flex-direction: row;
+        .product-img {
+            order: 1;
+        }
+        .right-container {
+            width: 65%;
+        }
+    }
 }
