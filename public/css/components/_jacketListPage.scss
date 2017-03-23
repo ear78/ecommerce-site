@@ -38,9 +38,19 @@
         .image-thumb-container {
             display: none;
             text-align: center;
+            margin-bottom: 15px;
         }
         .image-thumb {
             max-width: 20%;
+        }
+        button {
+            height: 40px;
+            background: $black;
+            color: white;
+            border: none;
+            width: 110px;
+            text-transform: uppercase;
+            font-weight: 100;
         }
     }
 

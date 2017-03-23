@@ -10,6 +10,9 @@ angular.module('eApp')
         .when('/jackets/:jacketId', {
             template: '<jacket-detail></jacket-detail>'
         })
+        .when('/cart', {
+            template: '<cart></cart>'
+        })
         .otherwise('/jackets');
 
     }

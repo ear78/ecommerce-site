@@ -88,9 +88,18 @@ a {
       margin-bottom: 30px; }
     .store-container .product-top .right-container .image-thumb-container {
       display: none;
-      text-align: center; }
+      text-align: center;
+      margin-bottom: 15px; }
     .store-container .product-top .right-container .image-thumb {
       max-width: 20%; }
+    .store-container .product-top .right-container button {
+      height: 40px;
+      background: #010101;
+      color: white;
+      border: none;
+      width: 110px;
+      text-transform: uppercase;
+      font-weight: 100; }
 
 .store-container .product-bottom .description-container {
   width: 100%;
