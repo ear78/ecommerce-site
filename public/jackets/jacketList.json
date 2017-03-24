@@ -4,27 +4,39 @@
         "imageUrl": "./img/jackets/rdSmall.jpg",
         "name": "Penfield Bowerbridge Down Jacket",
         "snippet": "A classic down jacket for versatile winter warmth",
-        "price": "$199.46 - $284.95"
+        "price": "$199.46 - $284.95",
+        "canPurchase": true
     },
     {
         "id": "patagonia-wanaka-down-jacket",
         "imageUrl": "./img/jackets/blagre.jpg",
         "name": "Patagonia Wanaka Down Jacket",
         "snippet": "A classic down jacket for versatile winter warmth",
-        "price": "$339.95"
+        "price": "$339.95",
+        "canPurchase": true
     },
     {
         "id": "fjallraven-greenland-no.-1-down-jacket",
         "imageUrl": "./img/jackets/uncblunv.jpg",
         "name": "Fjallraven Greenland No. 1 Down Jacket",
         "snippet": "G-1000 Eco shell",
-        "price": "$499.95"
+        "price": "$499.95",
+        "canPurchase": true
     },
     {
         "id": "norrøna-29-gore-tex-primaloft-insulated-parka",
         "imageUrl": "./img/jackets/cav.jpg",
         "name": "Norrøna /29 Gore-Tex Primaloft Insulated Parka",
         "snippet": "excellent for the coldest parts of winter",
-        "price": "$770.95"
+        "price": "$770.95",
+        "canPurchase": true
+    },
+    {
+        "id": "saga-puff-polly-combo-jacket",
+        "imageUrl": "./img/jackets/sagaBigBlk.jpg",
+        "name": "Saga Puff Polly Combo Jacket",
+        "snippet": "Shell boasts a waterproof, breathable membrane",
+        "price": "160.95",
+        "canPurchase": true
     }
 ]

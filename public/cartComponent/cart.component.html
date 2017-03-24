@@ -1,3 +1,18 @@
-<section>
-    <h1>This is from the cart</h1>
+<section class="cart-container">
+    <h1>Shopping Cart</h1>
+    <div class="item-container">
+        <img ng-src="./img/jackets/bkBig.jpg"/>
+        <div class="desc-container">
+            <p>This is a basic description of the item for the cart</p>
+            <p>quantity {{ $ctrl.quantity }}</p>
+            <p>$399.00</p>
+        </div>
+    </div>
+    <div class="total-container">
+        <ul>
+            <li>Subtotal {{ $ctrl.subtotal }}</li>
+            <li>Tax {{ $ctrl.tax }}</li>
+            <li>Total {{ $ctrl.total }}</li>
+        </ul>
+    </div>
 </section>

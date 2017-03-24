@@ -1,0 +1,26 @@
+[
+        {
+        "id": "saga-puff-polly-combo-jacket",
+        "logo": "/img/logos/Sagalogo2016.jpg",
+        "imageUrl": "/img/jackets/sagaBigBlk.jpg",
+        "imageThumb": ["./img/jackets/sagaSmBlk.jpg", "./img/jackets/sagaSmBrwn.jpg"],
+        "name": "Saga Puff Polly Combo Jacket",
+        "price": "160.96",
+        "descTitle": "Bonus Style Points.",
+        "description": "Of course the Saga Men's Puff Polly Combo Jacket's removable vest adds core warmth on chilly ski days, but you mainly wear it because it looks so good when you butter off cat tracks like it was your job. Saga equipped the ski shell with a waterproof, breathable membrane for reliable protection in snowy weather, and the vest even has a waxed treatment to shed snowflakes. The Puff Polly's vest also uses midweight insulation that stays warm even if you happen to get it wet. You can wear the vest by itself for sunny park sessions, and Saga styled the shell with corduroy elbow patches that make English scholars drool over your sophisticated style.",
+        "listDescription": [
+            "Ski shell with removable vest for bonus style points", "Shell boasts a waterproof, breathable membrane", "Vest styles a waxed shell and midweight insulation", "Adjustments at hood and cuffs assure a secure fit", "Corduroy elbow patches add a touch of sophisticated smartness", "Item #SGG0030"
+        ],
+        "techSpecs": {
+                "material": "[face fabric] waxed oxford, [insulation] 60g quilted synthetic",
+                "insulation": "550-fill down",
+                "fit": "regular",
+                "hood": "yes",
+                "pockets": "[shell] 2 hand, 1 chest, [liner] 1 zippered kangaroo (media)",
+                "length": "hip",
+                "recommendedUse": "skiing & snowboarding",
+                "manufacturersWarranty": "30 days warranty"
+        }
+
+    }
+]
