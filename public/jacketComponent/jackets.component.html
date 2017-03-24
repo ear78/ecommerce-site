@@ -17,7 +17,7 @@
             <a href="#!/jackets/{{ jacket.id }}"><img ng-src="{{ jacket.imageUrl }}"/></a>
             <div class="info-container">
                 <h3>{{ jacket.name }}</h3>
-                <p>{{ jacket.price }}</p>
+                <p>{{ jacket.price | currency }}</p>
             </div>
         </div>
 </section>
