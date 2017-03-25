@@ -20,7 +20,19 @@
                 "length": "100",
                 "recommendedUse": "casual",
                 "manufacturersWarranty": "1 year warranty"
-        }
+        },
+        "reviews":[
+            {
+                "stars": 5,
+                "body": "I love this jacket!  It keeps me toasty in the winter time",
+                "author": "ear78@aol.com"
+            },
+            {
+                "stars": 4,
+                "body": "I adore this jacket!  It keeps me warm in the winter time",
+                "author": "johnny78@aol.com"
+            }
+        ]
 
     }
 ]
