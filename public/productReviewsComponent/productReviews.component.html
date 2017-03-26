@@ -8,9 +8,8 @@
             <option value="4">4 stars</option>
             <option value="5">5 stars</option>
         </select>
-        <textarea name="name" rows="4" cols="100"></textarea>
-        <label>By:</label>
-        <input type="email" />
+        <textarea name="name" rows="4" cols="100" placeholder="Leave A Review"></textarea>
+        <input type="email" placeholder="Email"/>
         <button type="submit" value="submit">Submit</button>
     </form>
     <blockquote ng-repeat="review in $ctrl.jackets.reviews">

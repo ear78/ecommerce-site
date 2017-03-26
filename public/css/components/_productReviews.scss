@@ -1,4 +1,5 @@
 .reviews {
+    margin-bottom: 50px;
     h3 {
         font-size: 2em;
         text-align: center;
@@ -9,6 +10,12 @@
         border-radius: 3px;
         border: 1px solid lightgray;
         width: 100%;
+        margin-bottom: 12px;
+    }
+
+    textarea[placeholder] {
+        text-transform: uppercase;
+        padding-left: 10px;
     }
 
     select {
@@ -16,7 +23,32 @@
         border-radius: 3px;
         height: 30px;
         width: 70px;
-        margin-bottom: 8px;
+        margin-bottom: 12px;
+    }
+
+    input {
+        border: 1px solid lightgray;
+        border-radius: 3px;
+        height: 40px;
+        padding-left: 10px;
+        display: block;
+        margin-bottom: 12px;
+        min-width: 100%;
+    }
+    input[placeholder] {
+        text-transform: uppercase;
+    }
+
+    button {
+        height: 40px;
+        width: 150px;
+        text-transform: uppercase;
+        background: black;
+        border: none;
+        color: white;
+        border-radius: 3px;
+        display: block;
+        margin: 0 auto 50px;
     }
 
     blockquote {
