@@ -1,13 +1,21 @@
-<section>
-    <form>
-        <h1>from the form</h1>
+<section class="reviews">
+    <h3>Reviews.</h3>
+    <form name=reviewForm>
+        <select class="" name="Rating">
+            <option value="1">1 stars</option>
+            <option value="2">2 stars</option>
+            <option value="3">3 stars</option>
+            <option value="4">4 stars</option>
+            <option value="5">5 stars</option>
+        </select>
+        <textarea name="name" rows="4" cols="100"></textarea>
+        <label>By:</label>
+        <input type="email" />
+        <button type="submit" value="submit">Submit</button>
     </form>
-    <blockquote ng-repeat="review in $ctrl.jackets.reviews[0]">
-        <b>Stars: {{ $ctrl.review.stars }}</b>
-        {{ $ctrl.review.body }}
-        <cite>By: {{ $ctrl.review.author }}</cite>
+    <blockquote ng-repeat="review in $ctrl.jackets.reviews">
+        <b>Stars: {{ review.stars }}</b>
+        {{ review.body }}
+        <cite>By: {{ review.author }}</cite>
     </blockquote>
-    <div class="">
-        this is the div
-    </div>
 </section>
