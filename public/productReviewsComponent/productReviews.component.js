@@ -7,7 +7,6 @@ angular.module('eApp')
             self.review = {};
 
             self.addReview = function(review){
-                console.log('submitted');
                 this.review = {};
             }
 
