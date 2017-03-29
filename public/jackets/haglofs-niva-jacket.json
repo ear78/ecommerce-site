@@ -1,0 +1,26 @@
+[
+        {
+        "id": "haglofs-niva-jacket",
+        "logo": "/img/logos/Haglofslogo2016.jpg",
+        "imageUrl": "./img/jackets/steskyincBigBlue.jpg",
+        "imageThumb": ["./img/jackets/steskyinkSmBlue.jpg", "./img/jackets/jungnSm.jpg"],
+        "name": "Haglöfs Niva Jacket",
+        "price": "160.96",
+        "descTitle": "Make The Mountain Your Playground.",
+        "description": "Attack steep and deep conditions with the Haglöfs Men's Niva Jacket. Constructed with a breathable 2-layer waterproof shell, this jacket keeps you dry as you bomb powder run after powder run. A brushed mesh lining enhances breathability and provides a touch of warmth for comfort. Haglofs equipped the Niva Jacket with a number of features to keep you comfortable on the mountain. A helmet-compatible hood cinches down over your head for extra protection in snowy and windy conditions, while the high collar provides added comfort and coverage. Mid-mounted hand pockets ensure unimpeded access to your small necessities, even when you're wearing a backpack. A powder skirt with silicone gripper and belt-loops seal out snow on deep days. However, the skirt can be fully removed for those sunny days spent on the groomers. And, should you begin to warm up, the zippered underarm vents allow you to dump heat after a long run. Ultimately, the Niva touts a clean design and articulated sleeves that give you freedom to move—no matter what the day calls for.",
+        "listDescription": [
+            "Backcountry Exclusive", "A well-featured, versatile freeski jacket", "Waterproof, breathable exterior protects against precipitation", "Brushed mesh lining offers enhanced breathability and warmth", "Helmet-compatible hood assures added weather protection", "High protective collar features soft chin guard", "Zippered underarm vents offer temperature regulation", "Removable powder skirt seals out snow on deep days", "Various pockets keep gear secure", "Item #HAG00D5"
+        ],
+        "techSpecs": {
+                "material": "[membrane/laminate] Proof 2-Layer, [face] recycled polyester",
+                "insulation": "550-fill down",
+                "fit": "regular",
+                "hood": "yes",
+                "pockets": "[exterior] 2 zippered hand, 1 zippered chest, [interior] 1 zippered, 1 mesh",
+                "length": "hip",
+                "recommendedUse": "skiing & snowboarding",
+                "manufacturersWarranty": "limited"
+        }
+
+    }
+]
