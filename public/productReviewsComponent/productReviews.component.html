@@ -1,19 +1,22 @@
 <section class="reviews">
     <h3>Reviews.</h3>
     <form name=reviewForm novalidate ng-submit="$ctrl.addReview(review)">
-        <select class="" name="Rating" ng-model="$ctrl.review.stars" required>
-            <option value="1">1 stars</option>
-            <option value="2">2 stars</option>
-            <option value="3">3 stars</option>
-            <option value="4">4 stars</option>
-            <option value="5">5 stars</option>
-        </select>
+
+
+        <div class="select-container">
+            <i class="material-icons">keyboard_arrow_down</i>
+            <select name="Rating" ng-model="$ctrl.review.stars" required>
+                <option value="1">1 stars</option>
+                <option value="2">2 stars</option>
+                <option value="3">3 stars</option>
+                <option value="4">4 stars</option>
+                <option value="5">5 stars</option>
+            </select>
+        </div>
+
         <textarea name="name" rows="4" cols="100" placeholder="Leave A Review" ng-model="$ctrl.review.body" required></textarea>
         <input type="email" placeholder="Email" ng-model="$ctrl.review.author" required/>
-        <div class="">
-            reviewForm is {{reviewForm.$valid}}
-        </div>
-        <input type="submit" value="submit" ng-disabled="reviewForm.$valid === false"></input>
+        <input class="submit-btn" type="submit" value="submit" ng-disabled="reviewForm.$valid === false"></input>
         <blockquote>
             <b>Stars: {{ $ctrl.review.stars }}</b>
             {{ $ctrl.review.body }}
@@ -22,7 +25,7 @@
     </form>
 
     <blockquote ng-repeat="review in $ctrl.jackets.reviews">
-        <b>Stars: {{ review.stars }}</b>
+        <b>Rating: {{ review.stars }}</b>
         {{ review.body }}
         <cite>By: {{ review.author }}</cite>
     </blockquote>

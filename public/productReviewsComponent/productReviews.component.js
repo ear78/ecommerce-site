@@ -5,9 +5,11 @@ angular.module('eApp')
             var self = this;
 
             self.review = {};
+            self.review.body = "- ";
 
             self.addReview = function(review){
-                this.review = {};
+                self.jackets.reviews.push(this.review);
+                self.review = {};
             }
 
             // JSON DATA COMING IN FROM PRODUCT JSON FILES
