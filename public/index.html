@@ -16,7 +16,7 @@
     <title-component></title-component>
 
     <!-- NG-VIEW FOR ROUTING -->
-    <div ng-view></div>
+    <div ng-view autoScroll="true"></div>
 
     <!-- FOOTER COMPONENT -->
     <footer-component></footer-component>
@@ -34,6 +34,9 @@
     <!-- JS FILES -->
     <script src="app.module.js"></script>
     <script src="app.config.js"></script>
+    <script src="./service/service.js"></script>
+
+    <!-- COMPONENTS, MODULES JS FILES -->
     <script src="./jacketComponent/jackets.module.js"></script>
     <script src="./jacketComponent/jackets.component.js"></script>
     <script src="./jacketDetailComponent/jacketDetail.module.js"></script>

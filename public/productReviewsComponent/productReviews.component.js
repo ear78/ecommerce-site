@@ -1,7 +1,7 @@
 angular.module('eApp')
     .component('productReviewsComponent', {
         templateUrl: './productReviewsComponent/productReviews.component.html',
-        controller:  function($http, $routeParams){
+        controller:  function($http, $routeParams, mainService){
             var self = this;
 
             self.review = {};
@@ -12,9 +12,7 @@ angular.module('eApp')
                 self.review = {};
             }
 
-            // JSON DATA COMING IN FROM PRODUCT JSON FILES
-            $http.get('jackets/' + $routeParams.jacketId + '.json').then(function(response){
-                console.log(response.data);
+            mainService.getJackets().then(function(response){
                 self.jackets = response.data[0];
             })
         }

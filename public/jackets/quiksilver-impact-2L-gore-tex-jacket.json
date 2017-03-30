@@ -1,0 +1,26 @@
+[
+    {
+        "id": "patagonia-wanaka-down-jacket ",
+        "logo": "/img/logos/QuiksilerLogo2010.jpg",
+        "imageUrl": "/img/jackets/quiBigGry.jpg",
+        "imageThumb": ["./img/jackets/quiSmGry.jpg", "./img/jackets/quiSmYel.jpg"],
+        "name": "Quiksilver Impact 2L Gore-Tex Jacket",
+        "price": "259.97",
+        "descTitle": "Winteproof jacket for some of the heaviest days of winter.",
+        "description": "Destined to make a difference this winter, the Quiksilver Men's Impact 2L Gore-Tex Jacket wraps you in hard-hitting protection for some of winter's nastiest blizzards. Two-layer Gore-Tex construction locks out the vicious storms that you'll encounter on the mountain, while also allowing for sweaty internal moisture to escape easily when you start to work up a sweat. Meanwhile, fully taped seams do their part to seal out sneaking precipitation for even more protection. Body-mapped PrimaLoft Silver insulation provides warmth and cozy comfort where you need it most as temps plummet toward single digits, while the underarm zippered vents make for a quick and easy cool-down when the day's just a tad warmer than you had previously expected it to be. The snap-away powder skirt system provides you with protection when the forecast's calling for thigh-deep pow, and the multiple pockets provide easy access to your extra goggles, snacks, maps, and your phone.",
+        "listDescription": [
+            "Winteproof jacket for some of the heaviest days of winter", "Gore-Tex two-layer fabric is totally waterproof and breathable", "Synthetic insulation boosts your warmth to handle frigid days", "Fully taped seams prevent moisture from seeping in", "Underarm zippered vents release extra heat in a pinch", "Snap away powder skirt helps defend against deep pow days", "Multiple pockets keep your belongings close at hand", "Item #QKS02U5"
+        ],
+        "techSpecs": {
+                "material": "[membrane/laminate] Gore-Tex (2-layer), [face fabric] 100% polyester",
+                "insulation": "PrimaLoft Silver Eco",
+                "fit": "regular",
+                "length": "hip",
+                "hood": "yes, removable",
+                "pockets": "1 chest zip, 1 media, 1 goggle",
+                "recommendedUse": "skiing, snowboarding",
+                "warranty": "Lifetime"
+        }
+
+    }
+]
