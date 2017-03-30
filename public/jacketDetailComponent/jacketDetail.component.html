@@ -7,7 +7,7 @@
         <div class="right-container">
             <img ng-src="{{ $ctrl.jackets.logo }}"/>
             <p>{{ $ctrl.jackets.name }}</p>
-            <p class="sale">Sale {{ $ctrl.jackets.price }}</p>
+            <p class="sale">Sale {{ $ctrl.jackets.price | currency }}</p>
             <div class="image-thumb-container">
                 <img class="image-thumb" ng-repeat="imageThumb in $ctrl.jackets.imageThumb track by $index" ng-src="{{ $ctrl.jackets.imageThumb[$index] }}" />
             </div>

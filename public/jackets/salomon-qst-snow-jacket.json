@@ -1,0 +1,26 @@
+[
+        {
+        "id": "salomon-qst-snow-jacket",
+        "logo": "/img/logos/salomon2013.jpg",
+        "imageUrl": "/img/jackets/blsteBig.jpg",
+        "imageThumb": ["./img/jackets/blsteSm.jpg", "./img/jackets/blstSmOrng.jpg"],
+        "name": "Salomon QST Snow Jacket ",
+        "color": "red",
+        "price": "244.96",
+        "descTitle": "An Instant Winter Favorite.",
+        "description": "From those cloudy, bottomless powder days to brilliant bluebird afternoons, the Salomon Men's QST Snow Jacket provides weather-proof protection, no matter the conditions. The QST is a warm, winter-proof jacket, and has a slightly longer fit to comfortably handle adventures in harsh weather. Crafted with a two-layer AdvancedSkin Dry membrane, this jacket keeps you shielded from unpredictable weather in the mountains, while its fully taped seams ensure that no moisture weasels its way in. Toasty synthetic AdvancedSkin Warm insulation wraps you in cozy comfort and quells bitter cold conditions. However, should you begin to warm up,  an air vent system provides a quick cool-down when you work up a sweat on the hill. Helmet-compatible and removable, the hood offers a versatile design to meet bluebird spring days and mid-winter storms alike. An attached powderskirt prevents snow from infiltrating your baselayers on those extra deep days, and an included goggle wipe quickly clears your vision after tomahawking.",
+        "listDescription": [
+            "Toasty, weather-proof jacket for all cold weather conditions", "Waterproof, breathable membrane protects you from winter's worst", "Synthetic insulation boosts overall warmth", "Air vent system allows hot air to escape quickly", "Zip-off hood, adjustable hem, and cuffs offer customization", "Powder skirt helps defend against flushed powder", "Multiple pockets stash all of your essentials", "Regular fit enables a natural range of motion", "Item #SAL000V"
+        ],
+        "techSpecs": {
+                "material": "[membrane/laminate] AdvancedSkin Dry (2-layer), [face fabric] 100% polyamide",
+                "insulation": "60g AdvancedSkin Warm",
+                "fit": "regular",
+                "length": "hip",
+                "hood": "yes, removable",
+                "pockets": "2 zippered hand, 1 coin, 1 left arm lift pass",
+                "recommendedUse": "skiing, snowboarding, backcountry touring"
+        }
+
+    }
+]

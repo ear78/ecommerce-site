@@ -4,9 +4,12 @@
     align-items: center;
     padding: 10px;
     margin-bottom: 50px;
-    background: $olive;
+    background: $black;
     .logo {
         width: 45px;
+    }
+    a,i {
+        color: $white;
     }
 }
 
