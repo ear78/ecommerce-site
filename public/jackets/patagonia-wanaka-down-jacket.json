@@ -20,7 +20,19 @@
                 "pockets": "2 Fleece Lined, Zipper Chest",
                 "recommendedUse": "casual",
                 "warranty": "Lifetime"
-        }
+        },
+        "reviews":[
+            {
+                "stars": 5,
+                "body": "I love this jacket!  It keeps me toasty in the winter time",
+                "author": "ear78@aol.com"
+            },
+            {
+                "stars": 4,
+                "body": "The fleece lined pockets are great for keeping your hands warm",
+                "author": "johnny78@aol.com"
+            }
+        ]
 
     }
 ]

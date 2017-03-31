@@ -20,7 +20,19 @@
                 "pockets": "1 chest zip, 1 media, 1 goggle",
                 "recommendedUse": "skiing, snowboarding",
                 "warranty": "Lifetime"
-        }
+        },
+        "reviews":[
+            {
+                "stars": 5,
+                "body": "I love this jacket!  It keeps me toasty in the winter time",
+                "author": "ear78@aol.com"
+            },
+            {
+                "stars": 4,
+                "body": "Wish it had another pocket for my mobile device!",
+                "author": "johnny78@aol.com"
+            }
+        ]
 
     }
 ]

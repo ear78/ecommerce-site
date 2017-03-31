@@ -5,7 +5,7 @@
         "imageUrl": "/img/jackets/cavBig.jpg",
         "imageThumb": ["./img/jackets/cav.jpg", "./img/jackets/cyclSmall.jpg"],
         "name": "Norrøna /29 Gore-Tex Primaloft Insulated Parka",
-        "price": "$770.95",
+        "price": "770.95",
         "descTitle": "A Waterproof, Insulated Parka For The Streets.",
         "description": "The Norrona Men's /29 Gore-Tex Primaloft Insulated Parka is excellent for the coldest parts of winter so you can comfortably commute to work in the early mornings, pub-hop after a rough work week, or take your family out to see the holiday lights. Its Gore-Tex shell gives this unique parka guaranteed waterproof breathable protection so you don't have to worry about your jacket soaking through during winter storms, and Norrona stuffed this parka with 200g PrimaLoft Sport insulation that's very warm, surprisingly light, and incredibly soft. Because backcountry.com is Norrona's exclusive US retailer, you won't see many others sporting a jacket just like yours. Norrona made sure all these amazing features fell in with a clean, sleek urban look. This parka has a long cut that offers extended coverage, and its huge hood protects you from the onslaught of snowy weather throughout winter. Not only do the inner gaiters keeps the sleeves in place while you walk down the snowy sidewalks, but they turn into mittens to provide additional warmth when you forget your gloves at home. If that's not enough for your fingers, then stuff them in the fleece-lined hand-warmer pockets for extra warmth. So say goodbye to numb fingers, cold wrists, and wet work clothes because this parka keeps you dry and warm in the cold, wet weather.",
         "listDescription": [
@@ -19,7 +19,19 @@
                 "hood": "yes",
                 "pockets": "2 handwarmer, 2 hand, 2 chest, 2 internal",
                 "recommendedUse": "casual"
-        }
+        },
+        "reviews":[
+            {
+                "stars": 5,
+                "body": "I love this jacket!  It keeps me toasty in the winter time",
+                "author": "ear78@aol.com"
+            },
+            {
+                "stars": 5,
+                "body": "Hand warmers and the Gore-Tex make this jacket amazing for those extremely cold days!",
+                "author": "johnny78@aol.com"
+            }
+        ]
 
     }
 ]

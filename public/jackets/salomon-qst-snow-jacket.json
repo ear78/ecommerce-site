@@ -20,7 +20,19 @@
                 "hood": "yes, removable",
                 "pockets": "2 zippered hand, 1 coin, 1 left arm lift pass",
                 "recommendedUse": "skiing, snowboarding, backcountry touring"
-        }
+        },
+        "reviews":[
+            {
+                "stars": 5,
+                "body": "I love this jacket!",
+                "author": "ear78@aol.com"
+            },
+            {
+                "stars": 4,
+                "body": "The fit of this jacket is pretty great!",
+                "author": "johnny78@aol.com"
+            }
+        ]
 
     }
 ]

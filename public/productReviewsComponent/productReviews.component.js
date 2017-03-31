@@ -5,7 +5,7 @@ angular.module('eApp')
             var self = this;
 
             self.review = {};
-            self.review.body = "- ";
+            self.review.body = "";
 
             self.addReview = function(review){
                 self.jackets.reviews.push(this.review);

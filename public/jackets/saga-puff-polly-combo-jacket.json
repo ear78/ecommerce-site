@@ -20,7 +20,19 @@
                 "length": "hip",
                 "recommendedUse": "skiing & snowboarding",
                 "manufacturersWarranty": "30 days warranty"
-        }
+        },
+        "reviews":[
+            {
+                "stars": 5,
+                "body": "I love this jacket!  It keeps me toasty in the winter time",
+                "author": "ear78@aol.com"
+            },
+            {
+                "stars": 4,
+                "body": "Love it!",
+                "author": "johnny78@aol.com"
+            }
+        ]
 
     }
 ]

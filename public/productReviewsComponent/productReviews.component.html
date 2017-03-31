@@ -15,11 +15,6 @@
         <textarea name="name" rows="4" cols="100" placeholder="Leave A Review" ng-model="$ctrl.review.body" required></textarea>
         <input type="email" placeholder="Email" ng-model="$ctrl.review.author" required/>
         <input class="submit-btn" type="submit" value="submit" ng-disabled="reviewForm.$valid === false"></input>
-        <blockquote>
-            <b>Stars: {{ $ctrl.review.stars }}</b>
-            {{ $ctrl.review.body }}
-            <cite>By: {{ $ctrl.review.author }}</cite>
-        </blockquote>
     </form>
 
     <blockquote ng-repeat="review in $ctrl.jackets.reviews">

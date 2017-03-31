@@ -1,0 +1,18 @@
+.social-container {
+    margin-bottom: 25px;
+    i {
+        color: $white;
+        padding: 5px;
+    }
+}
+
+
+
+@media(min-width: 1024px) {
+    .social-container {
+        margin-bottom: 0px;
+        position: absolute;
+        left: 15px;
+        bottom: 15px;
+    }
+}

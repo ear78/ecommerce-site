@@ -20,7 +20,19 @@
                 "length": "hip",
                 "recommendedUse": "skiing & snowboarding",
                 "manufacturersWarranty": "limited"
-        }
+        },
+        "reviews":[
+            {
+                "stars": 4,
+                "body": "I love this jacket!  It keeps me toasty in the winter time",
+                "author": "ear78@aol.com"
+            },
+            {
+                "stars": 5,
+                "body": "This jacket has it all, I wouldn't get another jacket!  Best outdoor terrain jacket!",
+                "author": "johnny78@aol.com"
+            }
+        ]
 
     }
 ]

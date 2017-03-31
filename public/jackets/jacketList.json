@@ -1,7 +1,7 @@
 [
     {
         "id": "penfield-bowerbridge-down-jacket",
-        "imageUrl": "./img/jackets/rdSmall.jpg",
+        "imageUrl": "./img/jackets/rdBig.jpg",
         "name": "Penfield Bowerbridge Down Jacket",
         "snippet": "A classic down jacket for versatile winter warmth",
         "price": "199.46",
@@ -9,7 +9,7 @@
     },
     {
         "id": "patagonia-wanaka-down-jacket",
-        "imageUrl": "./img/jackets/blagre.jpg",
+        "imageUrl": "./img/jackets/blargeBig.jpg",
         "name": "Patagonia Wanaka Down Jacket",
         "snippet": "A classic down jacket for versatile winter warmth",
         "price": "339.95",
@@ -17,7 +17,7 @@
     },
     {
         "id": "fjallraven-greenland-no.-1-down-jacket",
-        "imageUrl": "./img/jackets/uncblunv.jpg",
+        "imageUrl": "./img/jackets/uncblunvBig.jpg",
         "name": "Fjallraven Greenland No. 1 Down Jacket",
         "snippet": "G-1000 Eco shell",
         "price": "499.95",
@@ -25,7 +25,7 @@
     },
     {
         "id": "norrøna-29-gore-tex-primaloft-insulated-parka",
-        "imageUrl": "./img/jackets/cav.jpg",
+        "imageUrl": "./img/jackets/cavBig.jpg",
         "name": "Norrøna /29 Gore-Tex Primaloft Insulated Parka",
         "snippet": "excellent for the coldest parts of winter",
         "price": "770.95",

@@ -51,7 +51,7 @@
         text-transform: uppercase;
     }
 
-    
+
     .submit-btn {
         height: 40px;
         width: 100%;
@@ -62,6 +62,9 @@
         border-radius: 3px;
         display: block;
         margin: 0 auto 50px;
+        &:hover {
+            cursor: pointer;
+        }
     }
 
     blockquote {

@@ -264,13 +264,17 @@ jackets .sort-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 15px 10px;
   margin-bottom: 50px;
   background: #010101; }
   .main-nav .logo {
     width: 45px; }
+  .main-nav a {
+    font-size: 1.125em; }
   .main-nav a, .main-nav i {
     color: #fff; }
+    .main-nav a:hover, .main-nav i:hover {
+      cursor: pointer; }
 
 .sidemenu-container {
   background: rgba(0, 0, 0, 0.92);
@@ -280,7 +284,7 @@ jackets .sort-container {
   top: 0;
   left: 0;
   z-index: 10;
-  padding-top: 25vh;
+  padding-top: 23vh;
   color: white;
   transform: translate3d(-100%, 0, 0); }
   .sidemenu-container ul {
@@ -293,7 +297,7 @@ jackets .sort-container {
     color: white; }
   .sidemenu-container li {
     margin-bottom: 20px;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 100;
     text-transform: uppercase; }
   .sidemenu-container .close-menu {
@@ -301,6 +305,8 @@ jackets .sort-container {
     top: 15px;
     right: 15px;
     font-size: 30px; }
+    .sidemenu-container .close-menu:hover {
+      cursor: pointer; }
   .sidemenu-container .sidemenu-logo {
     display: flex;
     flex-direction: column;
@@ -362,15 +368,18 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  position: relative; }
+  position: relative;
+  padding: 25px 0; }
   footer .footer-top {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    margin-bottom: 20px; }
   footer .footer-bottom {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    padding-top: 10px; }
     footer .footer-bottom .copy {
       color: white; }
   footer h1 {
@@ -379,7 +388,7 @@ footer {
     text-transform: uppercase;
     color: darkolivegreen; }
   footer .footer-logo {
-    font-size: 30px; }
+    font-size: 40px; }
   footer p {
     color: #969696;
     margin-bottom: 8px; }
@@ -390,6 +399,12 @@ footer {
     padding: 5px;
     border: 1px solid gray;
     border-radius: 50%; }
+    footer .up-arrow:hover {
+      cursor: pointer; }
+
+@media (min-width: 1024px) {
+  footer {
+    min-height: 210px; } }
 
 .cart-container {
   width: 90%;
@@ -464,6 +479,8 @@ footer {
     border-radius: 3px;
     display: block;
     margin: 0 auto 50px; }
+    .reviews .submit-btn:hover {
+      cursor: pointer; }
   .reviews blockquote {
     border: 1px solid lightgray;
     border-radius: 3px;
@@ -477,3 +494,89 @@ footer {
     .reviews blockquote cite {
       margin-top: 8px;
       font-weight: 100; }
+
+.social-container {
+  margin-bottom: 25px; }
+  .social-container i {
+    color: #fff;
+    padding: 5px; }
+
+@media (min-width: 1024px) {
+  .social-container {
+    margin-bottom: 0px;
+    position: absolute;
+    left: 15px;
+    bottom: 15px; } }
+
+.email-input {
+  position: relative;
+  border-bottom: 1px solid #fff; }
+  .email-input input {
+    height: 40px;
+    min-width: 275px;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    padding-left: 10px;
+    color: #fff; }
+  .email-input input::-webkit-input-placeholder {
+    color: #fff; }
+  .email-input input::-moz-placeholder {
+    color: #fff; }
+  .email-input input:-ms-input-placeholder {
+    color: #fff; }
+  .email-input input:-moz-placeholder {
+    color: #fff; }
+  .email-input input:focus {
+    outline-color: black; }
+  .email-input i {
+    position: absolute;
+    right: 10px;
+    top: 11px;
+    transform: translate3d(0, 0, 0); }
+  .email-input i:hover {
+    cursor: pointer;
+    -webkit-animation: swing 1.25s ease 1;
+    -moz-animation: swing 1.25s ease 1;
+    -o-animation: swing 1.25s ease 1;
+    animation: swing 1.25s ease 1; }
+
+@-webkit-keyframes swing {
+  0% {
+    transform: translated3d(0, 0, 0); }
+  40% {
+    transform: translate3d(10px, 0, 0); }
+  80% {
+    transform: translate3d(-5px, 0, 0); }
+  100% {
+    transform: translate3d(0px, 0, 0); } }
+
+@-moz-keyframes swing {
+  0% {
+    transform: translated3d(0, 0, 0); }
+  40% {
+    transform: translate3d(10px, 0, 0); }
+  80% {
+    transform: translate3d(-5px, 0, 0); }
+  100% {
+    transform: translate3d(0px, 0, 0); } }
+
+@-o-keyframes swing {
+  0% {
+    transform: translated3d(0, 0, 0); }
+  40% {
+    transform: translate3d(10px, 0, 0); }
+  80% {
+    transform: translate3d(-5px, 0, 0); }
+  100% {
+    transform: translate3d(0px, 0, 0); } }
+
+@keyframes swing {
+  0% {
+    transform: translated3d(0, 0, 0); }
+  40% {
+    transform: translate3d(10px, 0, 0); }
+  80% {
+    transform: translate3d(-5px, 0, 0); }
+  100% {
+    transform: translate3d(0px, 0, 0); } }

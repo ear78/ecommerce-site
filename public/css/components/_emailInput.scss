@@ -1,0 +1,108 @@
+.email-input {
+    position: relative;
+    border-bottom: 1px solid $white;
+    input {
+        height: 40px;
+        min-width: 275px;
+        background: none;
+        border: none;
+        text-transform: uppercase;
+        padding-left: 10px;
+        color: $white;
+    }
+
+    input::-webkit-input-placeholder {
+        color: $white;
+    }
+
+    input::-moz-placeholder {
+        color: $white;
+    }
+
+    input:-ms-input-placeholder {
+        color: $white;
+    }
+
+    input:-moz-placeholder {
+        color: $white;
+    }
+
+    input:focus {
+        outline-color: black;
+    }
+
+    i {
+        position: absolute;
+        right: 10px;
+        top: 11px;
+        transform: translate3d(0,0,0);
+    }
+    i:hover {
+        cursor: pointer;
+        -webkit-animation: swing 1.25s ease 1;
+        -moz-animation: swing 1.25s ease 1;
+        -o-animation: swing 1.25s ease 1;
+        animation: swing 1.25s ease 1;
+    }
+
+    @-webkit-keyframes swing {
+        0% {
+            transform: translated3d(0,0,0);
+        }
+        40% {
+            transform: translate3d(10px,0,0);
+        }
+        80% {
+            transform: translate3d(-5px,0,0);
+        }
+        100% {
+            transform: translate3d(0px,0,0);
+        }
+    }
+
+    @-moz-keyframes swing {
+        0% {
+            transform: translated3d(0,0,0);
+        }
+        40% {
+            transform: translate3d(10px,0,0);
+        }
+        80% {
+            transform: translate3d(-5px,0,0);
+        }
+        100% {
+            transform: translate3d(0px,0,0);
+        }
+    }
+
+    @-o-keyframes swing {
+        0% {
+            transform: translated3d(0,0,0);
+        }
+        40% {
+            transform: translate3d(10px,0,0);
+        }
+        80% {
+            transform: translate3d(-5px,0,0);
+        }
+        100% {
+            transform: translate3d(0px,0,0);
+        }
+    }
+
+    @keyframes swing {
+        0% {
+            transform: translated3d(0,0,0);
+        }
+        40% {
+            transform: translate3d(10px,0,0);
+        }
+        80% {
+            transform: translate3d(-5px,0,0);
+        }
+        100% {
+            transform: translate3d(0px,0,0);
+        }
+    }
+
+}
