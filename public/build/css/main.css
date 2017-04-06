@@ -283,7 +283,8 @@ jackets .sort-container {
   margin-bottom: 50px;
   justify-content: space-between;
   list-style-type: none;
-  align-items: center; }
+  align-items: center;
+  border-bottom: 1px solid lightgray; }
   .main-nav-desktop .nav-menu {
     display: flex;
     position: relative; }
@@ -292,7 +293,9 @@ jackets .sort-container {
       top: 24px;
       box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
       border-radius: 3px;
-      display: none; }
+      display: none;
+      z-index: 5;
+      background: #fff; }
       .main-nav-desktop .nav-menu .drop-container li:hover {
         color: darkolivegreen; }
   .main-nav-desktop li {
