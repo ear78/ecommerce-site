@@ -648,6 +648,35 @@ footer {
   100% {
     transform: translate3d(0px, 0, 0); } }
 
+.email-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100vw;
+  height: 100vh; }
+  .email-modal .box {
+    background: #fff;
+    height: 350px;
+    width: 400px;
+    color: #010101;
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.9);
+    margin: 13vh auto;
+    text-align: center;
+    padding: 90px 25px 0px; }
+  .email-modal h1 {
+    font-size: 2em;
+    color: #010101;
+    margin-bottom: 45px; }
+  .email-modal i {
+    font-size: 50px; }
+  .email-modal h4 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: darkolivegreen; }
+
 .about {
   width: 95%;
   margin: 0 auto; }

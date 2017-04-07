@@ -4,12 +4,12 @@ angular.module('eApp')
         controller: function(){
             var self = this;
 
+            self.isSubmitted = true;
             self.emailInfo = '';
 
             self.emailInput = function(emailInfo) {
-                console.log(emailInfo);
-                alert('Thanks for signing up ' + emailInfo);
                 self.emailInfo = '';
+                self.isSubmitted = false;
             }
         }
     })
