@@ -57,7 +57,7 @@ a {
   color: #010101; }
 
 p {
-  line-height: 1.5; }
+  line-height: 1.6; }
 
 .wrapper {
   width: 95%;
@@ -414,6 +414,12 @@ jackets .sort-container {
     font-weight: 100;
     color: #990000; }
 
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.75em; }
+  i {
+    font-size: 70px; } }
+
 @media (min-width: 992px) {
   .title-container i {
     font-size: 85px; }
@@ -709,7 +715,7 @@ footer {
     .about p {
       text-align: center;
       width: 90%;
-      margin: 0 auto 80px; }
+      margin: 0 auto 90px; }
     .about h1 {
       font-size: 2.75em; }
     .about .icon-section {

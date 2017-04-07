@@ -1,4 +1,4 @@
 <div class="email-input">
-    <input type="text" placeholder="Email" />
-    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+    <input type="text" placeholder="Email" ng-model="$ctrl.emailInfo"/>
+    <i class="fa fa-long-arrow-right" aria-hidden="true" ng-click="$ctrl.emailInput(emailInfo)"></i>
 </div>
