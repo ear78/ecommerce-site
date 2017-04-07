@@ -5,5 +5,6 @@ angular.module('eApp',[
      'ngAnimate',
      'jackets',
      'jacketDetail',
+     'about',
      'cart'
 ]);

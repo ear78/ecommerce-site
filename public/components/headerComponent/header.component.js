@@ -1,6 +1,6 @@
 angular.module('eApp')
     .component('headerComponent', {
-        templateUrl: "./headerComponent/header.component.html",
+        templateUrl: "./components/headerComponent/header.component.html",
         controller: function HeaderCtrl(){
             //TOGGLE SIDEMENU
             this.toggleMenu = true;

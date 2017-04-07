@@ -1,6 +1,6 @@
 angular.module('eApp')
     .component('productReviewsComponent', {
-        templateUrl: './productReviewsComponent/productReviews.component.html',
+        templateUrl: './components/productReviewsComponent/productReviews.component.html',
         controller:  function($http, $routeParams, mainService){
             var self = this;
 

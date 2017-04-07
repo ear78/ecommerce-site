@@ -1,6 +1,6 @@
 angular.module('jackets')
     .component('jackets', {
-        templateUrl: 'jacketComponent/jackets.component.html',
+        templateUrl: './components/jacketComponent/jackets.component.html',
         controller: function JacketsController($http, mainService){
             this.order = "price";
             var self = this;

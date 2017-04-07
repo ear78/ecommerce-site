@@ -13,6 +13,9 @@ angular.module('eApp')
         .when('/cart', {
             template: '<cart></cart>'
         })
+        .when('/about', {
+            template: '<about></about>'
+        })
         .otherwise('/jackets');
 
     }

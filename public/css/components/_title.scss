@@ -23,3 +23,19 @@
         color: $brickred;
     }
 }
+
+
+@media(min-width: 992px) {
+    .title-container {
+        i {
+            font-size: 85px;
+        }
+        h1 {
+            font-size: 3.125em;
+        }
+        h5 {
+            font-size: 1.125em;
+        }
+    }
+
+}

@@ -1,0 +1,106 @@
+.about {
+    width: 95%;
+    margin: 0 auto;
+    .pic-container {
+        margin-bottom: 40px;
+    }
+    h1 {
+        font-size: 2.5em;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 100;
+        max-width: 500px;
+        margin: 0 auto 40px;
+    }
+    .line {
+        background: lightgray;
+        width: 75%;
+        max-width: 350px;
+        height: 1px;
+        margin: 0 auto 40px;
+
+    }
+    .line2 {
+        background: lightgray;
+        max-width: 80px;
+        height: 1px;
+        margin: 0 auto 80px;
+        transform: rotate(90deg);
+    }
+    q {
+        display: block;
+        margin: 0 auto 100px;
+        width: 80%;
+        max-width: 400px;
+        text-align: center;
+        font-size: 1.125em;
+        text-transform: uppercase;
+        color: gray;
+        font-weight: 100;
+    }
+    p {
+        margin-bottom: 75px;
+        text-align: justify;
+        hyphens: auto;
+        font-weight: 100;
+    }
+    p:first-letter {
+        font-size: 2em;
+        margin-bottom: 0;
+        line-height: 1;
+    }
+    .icon-section {
+        display: flex;
+        flex-direction: column;
+    }
+    i {
+        display: flex;
+        margin-bottom: 20px;
+        font-size: 2em;
+        height: 80px;
+        width: 80px;
+        border: 2px solid;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0 auto 25px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media(min-width: 768px) {
+    .about {
+        width: 100%;
+        .pic-container {
+            margin-bottom: 70px;
+        }
+        p {
+            text-align: center;
+            width: 90%;
+            margin: 0 auto 80px;
+        }
+        h1 {
+            font-size: 2.75em;
+        }
+        .icon-section {
+            flex-direction: row;
+            margin-bottom: 30px;
+        }
+        .line2 {
+            display: none;
+        }
+    }
+}
+
+@media(min-width: 992px) {
+    .about {
+        h1 {
+            font-size: 3em;
+        }
+        p {
+            margin-bottom: 120px;
+            font-size: 1.125em;
+        }
+    }
+}
