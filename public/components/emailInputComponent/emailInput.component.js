@@ -11,5 +11,9 @@ angular.module('eApp')
                 self.emailInfo = '';
                 self.isSubmitted = false;
             }
+
+            self.closeModal = function(){
+                self.isSubmitted = true;
+            }
         }
     })

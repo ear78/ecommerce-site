@@ -360,7 +360,16 @@ jackets .sort-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 90px;
+    font-size: 65px;
+    opacity: 0;
+    transform: translate3d(0, 0px, 0);
+    margin-bottom: 5px; }
+  .sidemenu-container .sidemenu-name {
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: darkolivegreen;
+    font-size: 2em;
     opacity: 0;
     transform: translate3d(0, 0px, 0); }
 
@@ -383,6 +392,14 @@ jackets .sort-container {
   transition: opacity .075s ease, transform 1s ease; }
 
 .sidemenu-container .sidemenu-logo-active {
+  transition: transform 1s ease, opacity 1s ease .25s;
+  opacity: 1;
+  transform: translate3d(0, 35px, 0); }
+
+.sidemenu-container .sidemenu-name {
+  transition: transform 1s ease, opacity .75s ease; }
+
+.sidemenu-container .sidemenu-name-active {
   transition: transform 1s ease, opacity 1s ease .25s;
   opacity: 1;
   transform: translate3d(0, 35px, 0); }
@@ -653,13 +670,14 @@ footer {
   top: 0;
   left: 0;
   overflow: hidden;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
   width: 100vw;
   height: 100vh; }
   .email-modal .box {
+    position: relative;
     background: #fff;
     height: 350px;
-    width: 400px;
+    width: 90%;
     color: #010101;
     border-radius: 5px;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.9);
@@ -672,10 +690,19 @@ footer {
     margin-bottom: 45px; }
   .email-modal i {
     font-size: 50px; }
+  .email-modal .modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 24px; }
   .email-modal h4 {
     font-size: 1.5em;
     text-transform: uppercase;
     color: darkolivegreen; }
+
+@media (min-width: 600px) {
+  .email-modal .box {
+    width: 400px; } }
 
 .about {
   width: 95%;
