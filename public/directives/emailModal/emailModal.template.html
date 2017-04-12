@@ -1,5 +1,5 @@
-<section class="email-modal">
-    <div class="box">
+<section class="email-modal" ng-class="{ 'modal-active': $ctrl.isActive }">
+    <div class="box" ng-class="{ 'box-active': $ctrl.isActive }">
         <i class="material-icons modal-close" ng-click="$ctrl.closeModal()">close</i>
         <h1>Thank you for signing up!</h1>
         <i class="material-icons">change_history</i>
