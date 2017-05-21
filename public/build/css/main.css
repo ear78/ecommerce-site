@@ -186,15 +186,8 @@ jackets .sort-container {
     right: 13px;
     top: 13px; }
 
-.jackets select {
-  background: white;
-  border: 1px solid;
-  color: lightgray;
-  width: 60%;
-  display: block;
-  margin: 20px auto;
-  border-radius: 2px;
-  height: 20px; }
+select.product-select {
+  height: 30px; }
 
 .jackets-container {
   display: flex;
@@ -784,8 +777,8 @@ footer {
     display: flex;
     margin-bottom: 20px;
     font-size: 2em;
-    height: 80px;
-    width: 80px;
+    height: 90px;
+    width: 90px;
     border: 2px solid;
     border-radius: 50%;
     padding: 10px;

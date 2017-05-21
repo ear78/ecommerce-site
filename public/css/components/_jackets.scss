@@ -28,15 +28,8 @@ jackets .sort-container {
     }
 }
 
-.jackets select {
-    background: white;
-    border: 1px solid;
-    color: lightgray;
-    width: 60%;
-    display: block;
-    margin: 20px auto;
-    border-radius: 2px;
-    height: 20px;
+select.product-select {
+    height: 30px;
 }
 
 .jackets-container {
