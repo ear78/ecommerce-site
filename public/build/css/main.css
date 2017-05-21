@@ -490,7 +490,11 @@ footer {
 
 @media (min-width: 1024px) {
   footer {
-    min-height: 210px; } }
+    min-height: 210px; }
+    footer h1 {
+      font-size: 1.75em; }
+    footer .footer-bottom {
+      margin-bottom: 50px; } }
 
 .cart-container {
   width: 90%;
@@ -585,7 +589,7 @@ footer {
     color: #fff;
     padding: 5px; }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .social-container {
     margin-bottom: 0px;
     position: absolute;
@@ -665,6 +669,10 @@ footer {
   100% {
     transform: translate3d(0px, 0, 0); } }
 
+@media (min-width: 1024px) {
+  .email-input input {
+    min-width: 350px; } }
+
 .email-modal {
   position: fixed;
   top: 0;
@@ -673,7 +681,8 @@ footer {
   background: rgba(0, 0, 0, 0.8);
   width: 100vw;
   height: 100vh;
-  opacity: 0; }
+  opacity: 0;
+  z-index: 10; }
   .email-modal .box {
     position: relative;
     background: #fff;
@@ -690,7 +699,9 @@ footer {
   .email-modal h1 {
     font-size: 2em;
     color: #010101;
-    margin-bottom: 45px; }
+    margin-bottom: 20px; }
+  .email-modal p {
+    margin-bottom: 20px; }
   .email-modal i {
     font-size: 50px; }
   .email-modal .modal-close {
@@ -698,6 +709,8 @@ footer {
     top: 15px;
     right: 15px;
     font-size: 24px; }
+    .email-modal .modal-close:hover {
+      cursor: pointer; }
   .email-modal h4 {
     font-size: 1.5em;
     text-transform: uppercase;
@@ -717,7 +730,7 @@ footer {
 .email-modal.modal-active {
   opacity: 1; }
 
-@media (min-width: 600px) {
+@media (min-width: 450px) {
   .email-modal .box {
     width: 400px; } }
 

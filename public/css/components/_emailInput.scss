@@ -106,3 +106,12 @@
     }
 
 }
+
+
+@media(min-width:1024px){
+    .email-input {
+        input {
+            min-width: 350px;
+        }
+    }
+}
