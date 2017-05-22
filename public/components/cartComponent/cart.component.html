@@ -3,24 +3,21 @@
 
     <!-- SHOPPING CART NG-REPEAT -->
 
-        <!-- <div ng-repeat="item in $ctrl.cart" class="item-container">
-            <img ng-src="{{ item.imageUrl }}"/>
+        <div ng-repeat="item in $ctrl.cart track by $index" class="item-container">
+            <img ng-src="{{ item.id.imageUrl }}"/>
             <div class="desc-container">
-                <p>{{item.description}}</p>
-                <p>quantity {{ item.quantity }}</p>
-                <p>${{ item.price }}</p>
+                <p>{{item.id.name}}</p>
+                <p>items {{ item.quantity }}</p>
+                <p>${{ item.total }}</p>
             </div>
-        </div> -->
-        <div class="">
-            {{ $ctrl.cart }}
         </div>
 
     <!-- SHOPPING CART TOTAL -->
     <div class="total-container">
         <ul>
-            <li>Subtotal {{ $ctrl.subtotal }}</li>
+            <li>Subtotal {{ $ctrl.cartTotal.total }}</li>
             <li>Tax {{ $ctrl.tax }}</li>
-            <li>Total {{ $ctrl.total }}</li>
+            <li>Total {{ $ctrl.cartTotal.total }}</li>
         </ul>
     </div>
 </section>

@@ -16,10 +16,23 @@ angular.module('eApp')
         }
 
         // ADD TO CART FUNCTIONALITY
-        var cartArray = [];
+
+        var arr = [];
         this.addToCartArray = function(product){
-            cartArray.push(product);
-            console.log(cartArray, 'in cartArray');
+            // if product is in array don't push
+            for(var i = 0; i < arr.length; i++){
+                if(product.id === arr[i].id){
+                    arr[i].quantity++;
+                    arr[i].total = arr[i].quantity * arr[i].id.price;
+                    this.cartArray = arr;
+                    return;
+                }
+            }
+            product.quantity = 1;
+            arr.push(product);
+            arr[i].total = arr[i].quantity * arr[i].id.price;
+            this.cartArray = arr;
         }
+
 
     })
