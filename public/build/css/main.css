@@ -403,11 +403,20 @@ select.product-select {
     display: flex; } }
 
 .title-bg {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url("../../img/chris-biron-99839.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("../../img/chris-biron-99839.jpg");
   background-size: cover;
   height: 450px;
   background-position: center;
   margin-bottom: 50px; }
+  .title-bg p {
+    color: white;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-style: italic;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: .9em; }
 
 .title-container {
   display: flex;
@@ -415,7 +424,7 @@ select.product-select {
   align-items: center;
   border-bottom: 1px solid lightgray;
   padding-bottom: 50px;
-  padding-top: 50px;
+  padding-top: 70px;
   width: 65%;
   margin: 0 auto 60px; }
   .title-container .main-logo {
