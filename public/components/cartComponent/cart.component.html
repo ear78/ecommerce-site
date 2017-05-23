@@ -3,11 +3,11 @@
 
     <!-- SHOPPING CART NG-REPEAT -->
 
-        <div ng-repeat="item in $ctrl.cart track by $index" class="item-container">
+        <div ng-repeat="item in $ctrl.cart" class="item-container">
             <img ng-src="{{ item.id.imageUrl }}"/>
             <div class="desc-container">
-                <p>{{item.id.name}}</p>
-                <p>items {{ item.quantity }}</p>
+                <p class="desc-product">{{item.id.name}}</p>
+                <p>Items: <span>{{ item.quantity }}</span></p>
                 <p>${{ item.total }}</p>
             </div>
         </div>
@@ -15,9 +15,10 @@
     <!-- SHOPPING CART TOTAL -->
     <div class="total-container">
         <ul>
-            <li>Subtotal {{ $ctrl.cartTotal.total }}</li>
-            <li>Tax {{ $ctrl.tax }}</li>
-            <li>Total {{ $ctrl.cartTotal.total }}</li>
+            <li>Subtotal {{ $ctrl.subTotal.total | currency }}</li>
+            <li>Tax {{ $ctrl.tax | currency}}</li>
+            <li>Total {{ $ctrl.finalTotal | currency }}</li>
         </ul>
+        <button type="button" name="checkout">Checkout <i class="material-icons">check</i></button>
     </div>
 </section>

@@ -410,7 +410,7 @@ select.product-select {
   border-bottom: 1px solid lightgray;
   padding-bottom: 50px;
   width: 65%;
-  margin: 0 auto 50px; }
+  margin: 0 auto 60px; }
   .title-container .main-logo {
     font-size: 3.75em; }
   .title-container i {
@@ -491,27 +491,66 @@ footer {
 
 .cart-container {
   width: 90%;
-  margin: 0 auto; }
+  margin: 0 auto 70px; }
   .cart-container h1 {
-    font-size: 2.5em;
-    margin-bottom: 30px; }
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2em;
+    margin-bottom: 40px; }
   .cart-container img {
-    width: 15%; }
+    width: 25%; }
   .cart-container .item-container {
     border: 1px solid lightgray;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    -webkit-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.1); }
   .cart-container .desc-container {
     width: 85%;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-around; }
+    .cart-container .desc-container p {
+      font-weight: 100; }
+    .cart-container .desc-container .desc-product {
+      display: none;
+      font-weight: 600;
+      text-transform: uppercase;
+      width: 50%; }
+    .cart-container .desc-container span {
+      margin-left: 8px;
+      color: darkolivegreen; }
   .cart-container .total-container {
     margin-bottom: 30px; }
+    .cart-container .total-container ul {
+      margin-bottom: 40px; }
     .cart-container .total-container li {
       margin-bottom: 8px; }
+    .cart-container .total-container button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: black;
+      border: 2px solid black;
+      height: 50px;
+      width: 170px;
+      text-transform: uppercase;
+      color: white; }
+    .cart-container .total-container i {
+      font-size: 18px;
+      margin-left: 8px; }
+
+@media (min-width: 600px) {
+  .cart-container h1 {
+    text-align: left; }
+  .cart-container img {
+    width: 20%; }
+  .cart-container .desc-container .desc-product {
+    display: block; } }
 
 .reviews {
   margin-bottom: 50px; }

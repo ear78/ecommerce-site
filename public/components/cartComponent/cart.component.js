@@ -3,25 +3,25 @@ angular.module('cart')
         templateUrl: './components/cartComponent/cart.component.html',
         controller: function cartCtrl($http, mainService ){
             var self = this;
-            this.quantity = 0;
-            this.subtotal = 0;
-            this.tax = 0;
-            this.total = 0;
+            self.quantity = 0;//initialze quantity
 
+            self.cart = mainService.cartArray;// products from the cart array service
 
-            self.cart = mainService.cartArray;
-
+            //get totals for cart subtotal, tax, finalTotal
             var getCartTotal = function(){
-                console.log(self.cart);
-                console.log(this.cartTotal);
                 if(!self.cart){
-                    this.cartTotal = {total: 0};
+                    self.subTotal = {total: 0};
+                    self.tax = 0;// initialize tax amount at 0
+                    self.finalTotal = 0;//initialize finalTotal
                 }
                 else {
-                    this.cartTotal = self.cart.reduce(function(p,c){
+                    self.subTotal = self.cart.reduce(function(p,c){
                         return {total: p.total + c.total}
                     })
+                    self.tax = self.subTotal.total * .0925;
+                    self.finalTotal = self.subTotal.total + self.tax;
                 }
+
             }
             getCartTotal();
 
