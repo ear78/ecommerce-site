@@ -170,14 +170,23 @@ p {
   margin-bottom: 40px;
   transition: .2s all ease; }
 
+.search-sort {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  align-items: center;
+  flex-direction: column-reverse;
+  transition: .2s all ease; }
+
 jackets .sort-container {
-  width: 75%;
+  width: 85%;
   margin: 0 auto 30px;
-  padding-left: 10px; }
+  padding-left: 10px;
+  height: 50px; }
 
 .input-container {
   position: relative;
-  width: 75%;
+  width: 85%;
   margin: 0 auto 50px; }
   .input-container input {
     width: 100%;
@@ -213,7 +222,8 @@ select.product-select {
     padding: 10px;
     width: 100%; }
     .jackets-container .shop-items-container img {
-      max-width: 100%; }
+      width: 100%;
+      max-width: 575px; }
     .jackets-container .shop-items-container .info-container {
       padding: 15px; }
       .jackets-container .shop-items-container .info-container h3 {
@@ -254,7 +264,13 @@ select.product-select {
 @media (min-width: 630px) {
   .jackets-container {
     flex-direction: row;
-    justify-content: center; } }
+    justify-content: center; }
+  .search-sort {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: row; } }
 
 @media (min-width: 768px) {
   jackets .sort-container {
@@ -533,7 +549,8 @@ footer {
 
 .cart-container {
   width: 90%;
-  margin: 0 auto 70px; }
+  margin: 0 auto 70px;
+  padding-top: 50px; }
   .cart-container h1 {
     text-align: center;
     text-transform: uppercase;

@@ -8,15 +8,25 @@
     transition: .2s all ease;
 }
 
+.search-sort {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column-reverse;
+    transition: .2s all ease;
+}
+
 jackets .sort-container {
-    width: 75%;
+    width: 85%;
     margin: 0 auto 30px;
     padding-left: 10px;
+    height: 50px;
 }
 
 .input-container {
     position: relative;
-    width: 75%;
+    width: 85%;
     margin: 0 auto 50px;
     input {
         width: 100%;
@@ -57,7 +67,8 @@ select.product-select {
         padding: 10px;
         width: 100%;
         img {
-            max-width: 100%;
+            width: 100%;
+            max-width: 575px;
         }
         .info-container {
             padding: 15px;
@@ -113,12 +124,20 @@ select.product-select {
 
 
 
-
+///////// MEDIA QUERIES /////////////////////
 
 @media(min-width:630px){
     .jackets-container {
         flex-direction: row;
         justify-content: center;
+    }
+
+    .search-sort {
+        display: flex;
+        width: 95%;
+        margin: 0 auto;
+        align-items: center;
+        flex-direction: row;
     }
 }
 
