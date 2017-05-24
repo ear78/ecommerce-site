@@ -1,8 +1,11 @@
 .about {
-    width: 95%;
-    margin: 0 auto;
-    .pic-container {
-        margin-bottom: 40px;
+    .hero-image {
+        background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url('../../img/joshua-earle-64814.jpg');
+            background-size: cover;
+            height: 450px;
+            background-position: center;
+            margin-bottom: 50px;
+            transition: .2s all ease;
     }
     h1 {
         font-size: 2.5em;
@@ -38,13 +41,13 @@
         color: gray;
         font-weight: 100;
     }
-    p {
+    .para {
         margin-bottom: 75px;
         text-align: justify;
         hyphens: auto;
         font-weight: 100;
     }
-    p:first-letter {
+    .para:first-letter {
         font-size: 2em;
         margin-bottom: 0;
         line-height: 1;
@@ -52,20 +55,21 @@
     .icon-section {
         display: flex;
         flex-direction: column;
+        i {
+            display: flex;
+            margin-bottom: 20px;
+            font-size: 2em;
+            height: 90px;
+            width: 90px;
+            border: 2px solid;
+            border-radius: 50%;
+            padding: 10px;
+            margin: 0 auto 25px;
+            align-items: center;
+            justify-content: center;
+        }
     }
-    i {
-        display: flex;
-        margin-bottom: 20px;
-        font-size: 2em;
-        height: 90px;
-        width: 90px;
-        border: 2px solid;
-        border-radius: 50%;
-        padding: 10px;
-        margin: 0 auto 25px;
-        align-items: center;
-        justify-content: center;
-    }
+
 }
 
 
@@ -75,7 +79,7 @@
         .pic-container {
             margin-bottom: 70px;
         }
-        p {
+        .para {
             text-align: center;
             width: 90%;
             margin: 0 auto 90px;
@@ -95,10 +99,17 @@
 
 @media(min-width: 992px) {
     .about {
+        .hero-image {
+            background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url('../../img/joshua-earle-64814.jpg');
+                background-size: cover;
+                height: 600px;
+                background-position: center;
+                background-position: 50% 95%;
+        }
         h1 {
             font-size: 3em;
         }
-        p {
+        .para {
             margin-bottom: 120px;
             font-size: 1.125em;
         }

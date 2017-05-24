@@ -161,6 +161,15 @@ p {
         display: block;
         text-align: left; } }
 
+.hero-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/chris-biron-99839.jpg");
+  background-size: cover;
+  height: 450px;
+  background-position: center;
+  margin-bottom: 50px;
+  margin-bottom: 40px;
+  transition: .2s all ease; }
+
 jackets .sort-container {
   width: 75%;
   margin: 0 auto 30px;
@@ -256,6 +265,12 @@ select.product-select {
   .jackets-container .shop-items-container {
     width: 45%;
     margin: 0 2% 60px; } }
+
+@media (min-width: 992px) {
+  .hero-image {
+    height: 600px;
+    background-position: center;
+    background-position: 50% 95%; } }
 
 @media (min-width: 1024px) {
   .jackets-container .shop-items-container {
@@ -401,13 +416,8 @@ select.product-select {
     display: flex; } }
 
 .title-bg {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/chris-biron-99839.jpg");
-  background-size: cover;
-  height: 450px;
-  background-position: center;
-  margin-bottom: 50px;
   transition: .2s all ease; }
-  .title-bg p {
+  .title-bg .title-phrase {
     color: white;
     width: 65%;
     text-align: center;
@@ -417,7 +427,7 @@ select.product-select {
     text-transform: uppercase;
     font-size: .9em;
     max-width: 500px; }
-  .title-bg i {
+  .title-bg .title-arrow {
     display: block;
     margin: 10px auto;
     color: white;
@@ -435,12 +445,11 @@ select.product-select {
   max-width: 800px;
   margin: 0 auto 50px;
   transition: .2s all ease; }
-  .title-container .main-logo {
-    font-size: 3.75em; }
-  .title-container i {
+  .title-container .title-logo {
+    color: #fff;
     width: 65px;
     font-size: 65px; }
-  .title-container h1 {
+  .title-container .title-title {
     margin-bottom: 8px;
     font-size: 2.5em;
     font-weight: 100;
@@ -450,30 +459,26 @@ select.product-select {
     color: #990000; }
 
 @media (min-width: 768px) {
-  h1 {
+  .title-title {
     font-size: 2.75em; }
-  i {
+  .title-logo {
     font-size: 70px; } }
 
 @media (min-width: 992px) {
-  .title-bg {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/chris-biron-99839.jpg");
-    background-size: cover;
-    height: 600px;
-    background-position: center;
-    margin-bottom: 50px; }
-    .title-bg p {
-      font-size: 1.125em; }
-    .title-bg i {
-      font-size: 55px;
-      width: 55px; }
-  .title-container i {
-    width: 85px;
-    font-size: 85px; }
-  .title-container h1 {
-    font-size: 3.125em; }
-  .title-container h5 {
-    font-size: 1.125em; } }
+  .title-bg .title-phrase {
+    font-size: 1.125em; }
+  .title-bg .title-arrow {
+    font-size: 55px;
+    width: 55px; }
+  .title-container {
+    padding-top: 100px; }
+    .title-container .title-logo {
+      width: 85px;
+      font-size: 85px; }
+    .title-container .title-title {
+      font-size: 3.125em; }
+    .title-container h5 {
+      font-size: 1.125em; } }
 
 footer {
   min-height: 170px;
@@ -803,53 +808,62 @@ footer {
   .email-modal .box {
     width: 400px; } }
 
-.about {
-  width: 95%;
-  margin: 0 auto; }
-  .about .pic-container {
-    margin-bottom: 40px; }
-  .about h1 {
-    font-size: 2.5em;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 100;
-    max-width: 500px;
-    margin: 0 auto 40px; }
-  .about .line {
-    background: lightgray;
-    width: 75%;
-    max-width: 350px;
-    height: 1px;
-    margin: 0 auto 40px; }
-  .about .line2 {
-    background: lightgray;
-    max-width: 80px;
-    height: 1px;
-    margin: 0 auto 80px;
-    transform: rotate(90deg); }
-  .about q {
-    display: block;
-    margin: 0 auto 100px;
-    width: 80%;
-    max-width: 400px;
-    text-align: center;
-    font-size: 1.125em;
-    text-transform: uppercase;
-    color: gray;
-    font-weight: 100; }
-  .about p {
-    margin-bottom: 75px;
-    text-align: justify;
-    hyphens: auto;
-    font-weight: 100; }
-  .about p:first-letter {
-    font-size: 2em;
-    margin-bottom: 0;
-    line-height: 1; }
-  .about .icon-section {
-    display: flex;
-    flex-direction: column; }
-  .about i {
+.about .hero-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/joshua-earle-64814.jpg");
+  background-size: cover;
+  height: 450px;
+  background-position: center;
+  margin-bottom: 50px;
+  transition: .2s all ease; }
+
+.about h1 {
+  font-size: 2.5em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 100;
+  max-width: 500px;
+  margin: 0 auto 40px; }
+
+.about .line {
+  background: lightgray;
+  width: 75%;
+  max-width: 350px;
+  height: 1px;
+  margin: 0 auto 40px; }
+
+.about .line2 {
+  background: lightgray;
+  max-width: 80px;
+  height: 1px;
+  margin: 0 auto 80px;
+  transform: rotate(90deg); }
+
+.about q {
+  display: block;
+  margin: 0 auto 100px;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  font-size: 1.125em;
+  text-transform: uppercase;
+  color: gray;
+  font-weight: 100; }
+
+.about .para {
+  margin-bottom: 75px;
+  text-align: justify;
+  hyphens: auto;
+  font-weight: 100; }
+
+.about .para:first-letter {
+  font-size: 2em;
+  margin-bottom: 0;
+  line-height: 1; }
+
+.about .icon-section {
+  display: flex;
+  flex-direction: column; }
+  .about .icon-section i {
     display: flex;
     margin-bottom: 20px;
     font-size: 2em;
@@ -867,7 +881,7 @@ footer {
     width: 100%; }
     .about .pic-container {
       margin-bottom: 70px; }
-    .about p {
+    .about .para {
       text-align: center;
       width: 90%;
       margin: 0 auto 90px; }
@@ -880,8 +894,14 @@ footer {
       display: none; } }
 
 @media (min-width: 992px) {
+  .about .hero-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/joshua-earle-64814.jpg");
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    background-position: 50% 95%; }
   .about h1 {
     font-size: 3em; }
-  .about p {
+  .about .para {
     margin-bottom: 120px;
     font-size: 1.125em; } }

@@ -1,3 +1,13 @@
+.hero-image {
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url('../../img/chris-biron-99839.jpg');
+    background-size: cover;
+    height: 450px;
+    background-position: center;
+    margin-bottom: 50px;
+    margin-bottom: 40px;
+    transition: .2s all ease;
+}
+
 jackets .sort-container {
     width: 75%;
     margin: 0 auto 30px;
@@ -127,6 +137,14 @@ select.product-select {
         }
     }
 
+}
+
+@media(min-width: 992px){
+    .hero-image {
+        height: 600px;
+        background-position: center;
+        background-position: 50% 95%;
+    }
 }
 
 @media(min-width:1024px){

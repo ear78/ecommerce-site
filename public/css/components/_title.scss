@@ -1,11 +1,7 @@
 .title-bg {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url('../../img/chris-biron-99839.jpg');
-    background-size: cover;
-    height: 450px;
-    background-position: center;
-    margin-bottom: 50px;
     transition: .2s all ease;
-    p {
+    // BOTTOM PART OF THE CONTAINER
+    .title-phrase {
         color: white;
         width: 65%;
         text-align: center;
@@ -16,7 +12,7 @@
         font-size: .9em;
         max-width: 500px;
     }
-    i {
+    .title-arrow {
         display: block;
         margin: 10px auto;
         color: white;
@@ -24,6 +20,7 @@
         width: 45px;
     }
 }
+
 .title-container {
     display: flex;
     flex-direction: column;
@@ -35,14 +32,12 @@
     max-width: 800px;
     margin: 0 auto 50px;
     transition: .2s all ease;
-    .main-logo {
-        font-size: 3.75em;
-    }
-    i {
+    .title-logo {
+        color: $white;
         width: 65px;
         font-size: 65px;
     }
-    h1 {
+    .title-title {
         margin-bottom: 8px;
         font-size: 2.5em;
         font-weight: 100;
@@ -57,35 +52,31 @@
 
 
 @media(min-width: 768px) {
-    h1 {
+    .title-title {
         font-size: 2.75em;
     }
-    i {
+    .title-logo {
         font-size: 70px;
     }
 }
 
 @media(min-width: 992px) {
     .title-bg {
-        background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url('../../img/chris-biron-99839.jpg');
-        background-size: cover;
-        height: 600px;
-        background-position: center;
-        margin-bottom: 50px;
-        p {
+        .title-phrase {
             font-size: 1.125em;
         }
-        i {
+        .title-arrow {
             font-size: 55px;
             width: 55px;
         }
     }
     .title-container {
-        i {
+        padding-top: 100px;
+        .title-logo {
             width: 85px;
             font-size: 85px;
         }
-        h1 {
+        .title-title {
             font-size: 3.125em;
         }
         h5 {
