@@ -14,10 +14,11 @@
     margin: 0 auto;
     align-items: center;
     flex-direction: column-reverse;
+    border-bottom: 1px solid $lightgray;
     transition: .2s all ease;
 }
 
-jackets .sort-container {
+.sort-container {
     width: 85%;
     margin: 0 auto 30px;
     padding-left: 10px;
@@ -87,6 +88,13 @@ select.product-select {
 
 }
 
+.jackets-title {
+    font-size: 2.75em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 60px 0;
+    font-weight: 100;
+}
 
 .jacket-list-item.ng-enter {
   opacity: 0;
@@ -142,7 +150,7 @@ select.product-select {
 }
 
 @media(min-width:768px){
-    jackets .sort-container {
+    .sort-container {
         max-width: 575px;
     }
     .input-container {
@@ -163,6 +171,9 @@ select.product-select {
         height: 600px;
         background-position: center;
         background-position: 50% 95%;
+    }
+    .jackets-title {
+        margin: 80px 0;
     }
 }
 
