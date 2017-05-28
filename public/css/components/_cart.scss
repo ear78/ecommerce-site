@@ -27,6 +27,7 @@
         width: 85%;
         display: flex;
         justify-content: space-around;
+        align-items: center;
         p {
             font-weight: 100;
         }
@@ -35,6 +36,16 @@
             font-weight: 600;
             text-transform: uppercase;
             width: 50%;
+        }
+        .counter {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid lightgray;
+            border-radius: 4px;
+            padding: 3px 7px;
+            background: black;
+            color: white;
+            box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
         }
         span {
             margin-left: 8px;

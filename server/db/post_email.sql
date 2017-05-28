@@ -1,2 +1,2 @@
-insert into email (id,email)
-    values($1,$2);
+insert into email (email)
+    values($1);

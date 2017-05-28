@@ -1,6 +1,7 @@
 angular.module('eApp')
     .service('mainService', function($http, $routeParams){
 
+        var baseUrl = 'http://localhost:9000';
         // PRODUCT BY ID
         this.getJackets = function(){
             return $http.get('jackets/' + $routeParams.jacketId + '.json');
@@ -11,8 +12,9 @@ angular.module('eApp')
             return $http.get('jackets/jacketList.json');
         }
 
-        this.createEmail = function(email){
-            return $http.post('http://localhost:9000/api/email');
+        this.saveEmail = function(email){
+            console.log(email)
+            return $http.post(baseUrl + '/email');
         }
 
         // ADD TO CART FUNCTIONALITY
@@ -25,6 +27,7 @@ angular.module('eApp')
                     arr[i].quantity++;
                     arr[i].total = arr[i].quantity * arr[i].id.price;
                     this.cartArray = arr;
+                    console.log(arr[i].quantity, arr[i].total, "in if")
                     return;
                 }
             }
@@ -32,6 +35,24 @@ angular.module('eApp')
             arr.push(product);
             arr[i].total = arr[i].quantity * arr[i].id.price;
             this.cartArray = arr;
+            console.log(product)
+        }
+
+        //REMOVE FROM CART FUNCTION
+        this.remove = function(product){
+            for(var i = 0; i < arr.length; i++){
+                if(arr[i].id === product.id){
+                    arr[i].quantity--;
+                    arr[i].total = arr[i].quantity * arr[i].id.price;
+                    this.cartArray;
+                    if(arr[i].quantity === 0){
+                        arr.splice(i, 1);
+                        arr[i].total = arr[i].quantity * arr[i].price;
+                        this.cartArray;
+                    }
+                }
+
+            }
         }
 
 

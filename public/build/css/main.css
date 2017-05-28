@@ -582,7 +582,8 @@ footer {
   .cart-container .desc-container {
     width: 85%;
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    align-items: center; }
     .cart-container .desc-container p {
       font-weight: 100; }
     .cart-container .desc-container .desc-product {
@@ -590,6 +591,15 @@ footer {
       font-weight: 600;
       text-transform: uppercase;
       width: 50%; }
+    .cart-container .desc-container .counter {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid lightgray;
+      border-radius: 4px;
+      padding: 3px 7px;
+      background: black;
+      color: white;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); }
     .cart-container .desc-container span {
       margin-left: 8px;
       color: darkolivegreen; }

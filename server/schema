@@ -1,0 +1,8 @@
+CREATE TABLE email(
+    id serial PRIMARY KEY,
+    email VARCHAR(355) UNIQUE NOT NULL
+)
+
+insert into email(email)
+values
+    ('test1@test.com')

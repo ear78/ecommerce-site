@@ -4,8 +4,18 @@ angular.module('cart')
         controller: function cartCtrl($http, mainService ){
             var self = this;
             self.quantity = 0;//initialze quantity
-
             self.cart = mainService.cartArray;// products from the cart array service
+
+            // COUNT UP TO SERVICE
+            self.countUp = function(product){
+                mainService.addToCartArray(product);
+            }
+
+            // COUNT DOWN TO SERVICE
+            self.countDown = function(product){
+                mainService.remove(product);
+            }
+
 
             //get totals for cart subtotal, tax, finalTotal
             var getCartTotal = function(){

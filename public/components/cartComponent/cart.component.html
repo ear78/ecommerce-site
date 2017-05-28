@@ -7,7 +7,11 @@
             <img ng-src="{{ item.id.imageUrl }}"/>
             <div class="desc-container">
                 <p class="desc-product">{{item.id.name}}</p>
-                <p>Items: <span>{{ item.quantity }}</span></p>
+                <p class="counter">
+                    <i class="material-icons" ng-click="$ctrl.countUp(item)">keyboard_arrow_up</i>
+                        <span>{{ item.quantity }}</span>
+                    <i class="material-icons" ng-click="$ctrl.countDown(item)">keyboard_arrow_down</i>
+                </p>
                 <p>${{ item.total }}</p>
             </div>
         </div>

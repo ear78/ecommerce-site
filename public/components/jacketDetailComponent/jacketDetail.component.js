@@ -5,7 +5,6 @@ angular.module('jacketDetail')
         var self = this;
 
         self.addToCart = function(product){
-            console.log(product, 'in jacketdetail');
             mainService.addToCartArray(product);
         }
 

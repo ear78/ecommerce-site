@@ -11,7 +11,8 @@
             <div class="image-thumb-container">
                 <img class="image-thumb" ng-repeat="imageThumb in $ctrl.jackets.imageThumb track by $index" ng-src="{{ $ctrl.jackets.imageThumb[$index] }}" />
             </div>
-            <button ng-click="$ctrl.addToCart({id:$ctrl.jackets})">Add To Cart</button>
+            <a href="#!/cart">
+            <button type="button" ng-click="$ctrl.addToCart({id:$ctrl.jackets})">Add To Cart</button></a>
         </div>
     </div>
     <div class="product-bottom">
