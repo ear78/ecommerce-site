@@ -3,6 +3,16 @@ CREATE TABLE email(
     email VARCHAR(355) UNIQUE NOT NULL
 )
 
+CREATE TABLE test(
+    id serial PRIMARY KEY,
+    name VARCHAR(40),
+    desc VARCHAR(300),
+    type VARCHAR(40)
+)
+
 insert into email(email)
 values
     ('test1@test.com')
+
+insert into test(name, description, type)
+values('elliot', 'this is a test description', 'type 1')

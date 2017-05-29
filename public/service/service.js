@@ -14,7 +14,7 @@ angular.module('eApp')
 
         this.saveEmail = function(email){
             console.log(email)
-            return $http.post(baseUrl + '/email');
+            return $http.post(baseUrl + '/email', email);
         }
 
         // ADD TO CART FUNCTIONALITY
