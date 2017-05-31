@@ -3,12 +3,18 @@ CREATE TABLE email(
     email VARCHAR(355) UNIQUE NOT NULL
 )
 
-CREATE TABLE test(
+CREATE TABLE products(
     id serial PRIMARY KEY,
-    name VARCHAR(40),
-    desc VARCHAR(300),
+    name VARCHAR(40) NOT NULL,
+    description VARCHAR(300) NOT NULL,
     type VARCHAR(40)
 )
+
+CREATE TABLE airplanes(
+    planeid SERIAL PRIMARY KEY NOT NULL,
+    planetype varchar(40) NOT NULL,
+    passengercount integer NOT NULL
+);
 
 insert into email(email)
 values

@@ -2,41 +2,42 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var cors = require('cors');
 var massive = require('massive');
-// var connectionString = "postgres://postgres:@localhost/konsumer";
-
 var app = module.exports = express();
 
-var db = massive.connectSync({
-    db: "konsumer"
-});
 
-// var massiveInstance = massive.connectSync({connectionString : connectionString})
+var connectionString = "postgres://elliotrichardson@localhost/konsumer";
+var massiveInstance = massive.connectSync({connectionString : connectionString})
 
-app.set('db', db);
+app.set('db', massiveInstance);
+// NEEDS TO BE UNDER APP.SET TO SET YOUR DATABASE PROPERLY
+var db = app.get('db');
 
-app.use(cors());
 app.use(bodyParser.json());
+app.use(cors());
+
 
 //DIRECTORY
-app.use(express.static('./public'));
+// app.use(express.static('./public'));
 
-// var emailCtrl = require('./controllers/emailCtrl.js');
+var productCtrl = require('./controllers/productCtrl.js');
 
-app.post('/email', function(req,res,next){[req.body.email],function(err,email){
-    res.status(200).json(email);
-    }
+db.new_plane(function(err, planes){
+    console.log(err, "plane added");
+})
+
+
+db.add_product(function(err,products){
+    console.log(err,"product added");
 });
 
-app.post('/test', function(req,res,next){[req.body.name, req.body.description,req.body.type],function(err,test){
-    res.status(200).json(test);
-    }
-});
+// db.new_product(function(err, products){
+//     console.log(err, "plane added");
+// })
 
 
 
+// var port = process.env.PORT || 9000;
 
-var port = process.env.PORT || 9000;
-
-app.listen(port, function(){
-    console.log('listening on', port);
+app.listen(9000, function(){
+    console.log('listening on', 9000);
 })
