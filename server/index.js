@@ -17,22 +17,20 @@ app.use(cors());
 
 
 //DIRECTORY
-// app.use(express.static('./public'));
+app.use(express.static('./public'));
 
 var productCtrl = require('./controllers/productCtrl.js');
 
-db.new_plane(function(err, planes){
-    console.log(err, "plane added");
-})
+app.get('/jackets', productCtrl.getJackets);
 
-
-db.add_product(function(err,products){
-    console.log(err,"product added");
-});
-
-// db.new_product(function(err, products){
+// db.new_plane(function(err, planes){
 //     console.log(err, "plane added");
 // })
+
+
+// db.add_product(function(err,products){
+//     console.log(err,"product added");
+// });
 
 
 

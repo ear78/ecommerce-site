@@ -16,9 +16,13 @@ CREATE TABLE airplanes(
     passengercount integer NOT NULL
 );
 
+CREATE TABLE jackets(
+    id serial PRIMARY KEY,
+    data jsonb
+)
+
+
+
 insert into email(email)
 values
     ('test1@test.com')
-
-insert into test(name, description, type)
-values('elliot', 'this is a test description', 'type 1')
