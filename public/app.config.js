@@ -16,6 +16,9 @@ angular.module('eApp')
         .when('/about', {
             template: '<about></about>'
         })
+        .when('/login', {
+            template: '<login></login>'
+        })
         .otherwise('/jackets');
 
     }
