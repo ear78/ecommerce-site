@@ -1,13 +1,27 @@
+.login-triangle {
+    color: $brickred;
+    font-size: 60px;
+    display: block;
+    width: 60px;
+    margin: 60px auto 0;
+}
 .login-title {
     font-weight: 100;
     text-transform: uppercase;
     text-align: center;
     font-size: 2.5em;
-    margin: 35px 0;
+    margin: 0 0 25px;
+}
+.login-line {
+    height: 1px;
+    background: lightgray;
+    margin: 0 auto;
+    width: 45%;
+    max-width: 400px;
 }
 .form-container {
     width: 85%;
-    margin: 50px auto;
+    margin: 50px auto 120px;
     height: 300px;
     border: 1px solid lightgray;
     border-radius: 2px;
