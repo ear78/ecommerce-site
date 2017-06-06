@@ -1,20 +1,38 @@
-h1 {
+.login-title {
+    font-weight: 100;
+    text-transform: uppercase;
     text-align: center;
     font-size: 2.5em;
+    margin: 35px 0;
 }
 .form-container {
-    width: 50%;
+    width: 85%;
     margin: 50px auto;
     height: 300px;
     border: 1px solid lightgray;
     border-radius: 2px;
     box-shadow: inset 0px 0px 3px 0 rgba(0,0,0,.15);
+    max-width: 475px;
     form {
         padding-top: 40px;
     }
+    .login-account {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .login-input-container {
+        width: 75%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .login-icons {
+        position: absolute;
+        top: 12px;
+        left: 15px;
+    }
     input {
         display: block;
-        width: 75%;
+        width: 100%;
         margin: 0 auto;
         height: 40px;
         border: 1px solid lightgray;
