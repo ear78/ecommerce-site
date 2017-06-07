@@ -5,22 +5,23 @@
 
 <!-- SEARCH AREA -->
 <div class="search-sort">
+    <!-- DROP DOWN CLICK DIRECTIVE FOR SORT -->
     <div class="sort-container">
-        <span class="sort-by">Sort By:
-    </span>
-        <select class="product-select" ng-model="$ctrl.order">
+        <span class="sort-by">Sort By:</span>
+        <!-- <span class="menu-carrot">v</span> -->
+        <i class="material-icons menu-carrot">keyboard_arrow_down</i>
+        <!-- <select class="product-select" ng-model="$ctrl.order">
             <option value="name">Name *</option>
             <option value="price">Price Low to High *</option>
             <option value="-price">Price High to Low *</option>
-        </select>
-        <!-- <div class="sort-drop">
-            <span>v</span>
+        </select> -->
+        <div class="sort-drop">
             <ul class="product-select" ng-model="$ctrl.order">
                 <li value="name">Name</li>
                 <li value="price">Price Low to High</li>
                 <li value="-price">Price High to Low</li>
             </ul>
-        </div> -->
+        </div>
 
     </div>
     <p class="input-container">

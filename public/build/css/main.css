@@ -182,8 +182,39 @@ p {
 .sort-container {
   width: 85%;
   margin: 0 auto 30px;
-  padding-left: 10px;
-  height: 50px; }
+  background: black;
+  color: white;
+  position: relative;
+  border-radius: 2px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 12px; }
+
+.sort-by {
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: .75em; }
+
+.menu-carrot {
+  text-align: right;
+  display: inline-block;
+  border-radius: 2px;
+  position: absolute;
+  right: 15px; }
+
+.sort-drop {
+  background: #fff;
+  width: 100%;
+  left: 0;
+  padding: 10px;
+  color: black;
+  border: 1px solid black;
+  position: absolute;
+  top: 49px;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2); }
+  .sort-drop li {
+    margin-bottom: 8px; }
 
 .input-container {
   position: relative;
