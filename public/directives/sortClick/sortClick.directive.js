@@ -8,17 +8,12 @@ angular.module('eApp')
 
                 element.on('click', function(){
                     $sortDrop.slideToggle('fast');
-                    console.log('clicked');
                 })
 
-                //CLOSE MENU IF LINK IS CLICKED
-                // $dropContainer.find('a').on('click', function(){
-                //     $dropContainer.slideUp('fast');
-                // })
-                //
-                // $dropContainer.on('mouseleave', function(){
-                //     $dropContainer.slideUp('fast');
-                // })
+                element.on('mouseleave', function(){
+                    $sortDrop.slideUp('fast');
+                })
+
             }
         }
     })

@@ -6,7 +6,7 @@
 <!-- SEARCH AREA -->
 <div class="search-sort">
     <!-- DROP DOWN CLICK DIRECTIVE FOR SORT -->
-    <div class="sort-container">
+    <div class="sort-container" sort-click>
         <span class="sort-by">Sort By:</span>
         <!-- <span class="menu-carrot">v</span> -->
         <i class="material-icons menu-carrot">keyboard_arrow_down</i>
@@ -16,10 +16,10 @@
             <option value="-price">Price High to Low *</option>
         </select> -->
         <div class="sort-drop">
-            <ul class="product-select" ng-model="$ctrl.order">
-                <li value="name">Name</li>
-                <li value="price">Price Low to High</li>
-                <li value="-price">Price High to Low</li>
+            <ul class="product-select">
+                <li ng-click="$ctrl.sortBy('name')">Name</li>
+                <li ng-click="$ctrl.sortBy('price')">Price Low to High</li>
+                <li ng-click="$ctrl.sortBy('-price')">Price High to Low</li>
             </ul>
         </div>
 
@@ -34,7 +34,7 @@
 
 <!-- JACKETS CONTAINER/PRODUCTS -->
 <section class="jackets-container">
-        <div ng-repeat="jacket in $ctrl.jacketList | filter:search | orderBy:$ctrl.order" class="shop-items-container jacket-list-item">
+        <div ng-repeat="jacket in $ctrl.jacketList | filter:search | orderBy:$ctrl.newOrderBy" class="shop-items-container jacket-list-item">
             <a href="#!/jackets/{{ jacket.id }}"><img ng-src="{{ jacket.imageUrl }}"/></a>
             <div class="info-container">
                 <h3>{{ jacket.name }}</h3>

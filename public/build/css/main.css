@@ -204,6 +204,7 @@ p {
   right: 15px; }
 
 .sort-drop {
+  display: none;
   background: #fff;
   width: 100%;
   left: 0;
@@ -215,6 +216,9 @@ p {
   box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2); }
   .sort-drop li {
     margin-bottom: 8px; }
+    .sort-drop li:hover {
+      color: #990000;
+      cursor: pointer; }
 
 .input-container {
   position: relative;
