@@ -215,10 +215,15 @@ p {
   top: 49px;
   box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2); }
   .sort-drop li {
-    margin-bottom: 8px; }
+    padding: 5px 0;
+    transition: all .2s ease; }
     .sort-drop li:hover {
       color: #990000;
-      cursor: pointer; }
+      cursor: pointer;
+      background: #f2f2f2;
+      border: 1px solid black;
+      border-radius: 2px;
+      padding-left: 5px; }
 
 .input-container {
   position: relative;
