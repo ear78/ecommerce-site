@@ -216,14 +216,14 @@ p {
   box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2); }
   .sort-drop li {
     padding: 5px 0;
-    transition: all .2s ease; }
+    transition: padding-left .4s ease .1s, background-color .4s ease; }
     .sort-drop li:hover {
-      color: #990000;
+      color: #fff;
       cursor: pointer;
-      background: #f2f2f2;
+      background-color: #010101;
       border: 1px solid black;
       border-radius: 2px;
-      padding-left: 5px; }
+      padding-left: 8px; }
 
 .input-container {
   position: relative;
@@ -1008,15 +1008,23 @@ footer {
   width: 85%;
   margin: 50px auto 120px;
   height: 300px;
-  border: 1px solid lightgray;
   border-radius: 2px;
   box-shadow: inset 0px 0px 3px 0 rgba(0, 0, 0, 0.15);
-  max-width: 475px; }
+  max-width: 475px;
+  background: #8E0E00;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(left, #1F1C18, #990000);
+  background: -o-linear-gradient(left, #1F1C18, #990000);
+  background: linear-gradient(to right, #1F1C18, #990000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   .form-container form {
     padding-top: 40px; }
   .form-container .login-account {
     text-align: center;
-    margin-bottom: 25px; }
+    margin-bottom: 25px;
+    font-weight: 100;
+    color: #fff; }
   .form-container .login-input-container {
     width: 75%;
     margin: 0 auto;
@@ -1032,7 +1040,6 @@ footer {
     height: 40px;
     border: 1px solid lightgray;
     border-radius: 2px;
-    background: rgba(242, 242, 242, 0.3);
     margin-bottom: 20px;
     text-align: center; }
     .form-container input::-webkit-input-placeholder {
@@ -1053,4 +1060,5 @@ footer {
     width: 50%;
     margin: 8px auto;
     text-align: center;
-    font-size: .8em; }
+    font-size: .8em;
+    color: #f2f2f2; }

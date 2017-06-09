@@ -19,6 +19,9 @@ angular.module('eApp')
         .when('/login', {
             template: '<login></login>'
         })
+        .when('/create-account', {
+            template: '<create-account></create-account>'
+        })
         .otherwise('/jackets');
 
     }
