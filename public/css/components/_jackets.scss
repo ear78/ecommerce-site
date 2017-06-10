@@ -73,7 +73,7 @@
 .input-container {
     position: relative;
     width: 85%;
-    margin: 0 auto 50px;
+    margin: 0 auto 30px;
     input {
         width: 100%;
         height: 50px;
@@ -191,6 +191,13 @@ select.product-select {
         margin: 0 auto;
         align-items: center;
         flex-direction: row;
+        padding-bottom: 50px;
+    }
+    .sort-container {
+        margin: 0 10px 0 0;
+    }
+    .input-container {
+        margin: 0px;
     }
 }
 
