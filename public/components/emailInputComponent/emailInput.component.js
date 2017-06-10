@@ -15,7 +15,6 @@ angular.module('eApp')
 
             //SUBMIT AND MODAL OPEN
             self.emailInput = function(emailInfo) {
-                console.log(self.emailInfo, "in component")
                 self.isSubmitted = false;
                 self.isActive = !self.isActive;
                 self.email = self.emailInfo;

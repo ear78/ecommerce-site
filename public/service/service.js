@@ -1,7 +1,8 @@
 angular.module('eApp')
-    .service('mainService', function($http, $routeParams){
+    .service('mainService', function($http, $routeParams, $log){
 
         var baseUrl = 'http://localhost:9000';
+        var self = this;
         // PRODUCT BY ID
         this.getJackets = function(){
             return $http.get('jackets/' + $routeParams.jacketId + '.json');
@@ -12,10 +13,15 @@ angular.module('eApp')
             return $http.get('jackets/jacketList.json');
         }
 
-        this.saveEmail = function(email){
-            console.log(email)
-            return $http.post(baseUrl + '/email', email);
-        }
+        this.saveEmail = function(email) {
+        return $http({
+            method: 'POST',
+            url: baseUrl + '/email',
+            data: {email : email}
+            }).then(function(response) {
+            return response.data.email;
+        })
+    }
 
         // ADD TO CART FUNCTIONALITY
 

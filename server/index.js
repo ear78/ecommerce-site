@@ -5,10 +5,9 @@ var massive = require('massive');
 var app = module.exports = express();
 
 
-var connectionString = "postgres://elliotrichardson@localhost/konsumer";
-var massiveInstance = massive.connectSync({connectionString : connectionString})
+var conn = massive.connectSync({connectionString : "postgres://postgres@localhost/konsumer"}) ;
 
-app.set('db', massiveInstance);
+app.set('db', conn);
 // NEEDS TO BE UNDER APP.SET TO SET YOUR DATABASE PROPERLY
 var db = app.get('db');
 
@@ -21,11 +20,14 @@ app.use(express.static('./public'));
 
 var productCtrl = require('./controllers/productCtrl.js');
 
-app.get('/jackets', productCtrl.getJackets);
-
-// db.new_plane(function(err, planes){
-//     console.log(err, "plane added");
-// })
+// app.post('/email', function(req,res,next){
+//     db.post_email([req.body.email], function(err, email){
+//             res.status(200).json(email);
+//             console.log('added email!');
+//     })
+// });
+app.post('/email', productCtrl.postEmail);
+// app.get('/jackets', productCtrl.getJackets);
 
 
 // db.add_product(function(err,products){
@@ -34,8 +36,8 @@ app.get('/jackets', productCtrl.getJackets);
 
 
 
-// var port = process.env.PORT || 9000;
+var port = process.env.PORT || 9000;
 
-app.listen(9000, function(){
-    console.log('listening on', 9000);
+app.listen(port, function(){
+    console.log('listening on', port);
 })

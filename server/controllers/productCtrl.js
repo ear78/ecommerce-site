@@ -2,10 +2,10 @@ var app = require('../index');
 var db = app.get('db');
 
 module.exports = {
-    createEmail: function(req,res,next){
+    postEmail: function(req,res,next){
+        console.log(req.body);
         db.post_email([req.body.email], function(err, email){
                 res.status(200).json(email);
-                console.log('added email!');
         })
     },
     getJackets: function(req,res,next){
@@ -13,4 +13,5 @@ module.exports = {
             res.status(200).json(products);
         })
     }
+
 }
