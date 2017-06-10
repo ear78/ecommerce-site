@@ -22,6 +22,9 @@ angular.module('eApp')
         .when('/create-account', {
             template: '<create-account></create-account>'
         })
+        .when('/contact', {
+            template: '<contact></contact>'
+        })
         .otherwise('/jackets');
 
     }
