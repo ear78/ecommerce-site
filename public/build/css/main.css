@@ -70,7 +70,8 @@ button:hover {
 .store-container {
   width: 90%;
   margin: 0 auto;
-  padding-top: 0px; }
+  padding-top: 0px;
+  max-width: 1000px; }
 
 .store-container .product-top {
   display: flex;
@@ -579,7 +580,7 @@ footer {
   align-items: center;
   justify-content: space-around;
   position: relative;
-  padding: 25px 0; }
+  padding: 40px 0; }
   footer .footer-top {
     display: flex;
     flex-direction: column;
