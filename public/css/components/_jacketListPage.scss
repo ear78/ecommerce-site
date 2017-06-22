@@ -2,7 +2,7 @@
     width: 90%;
     margin: 0 auto;
     padding-top: 0px;
-    
+
 }
 
 .store-container .product-top {
@@ -18,7 +18,8 @@
         order: 2;
         img {
             min-width: 300px;
-            max-width: 100%;
+            width: 100%;
+            max-width: 575px;
         }
     }
     .right-container {
@@ -37,12 +38,12 @@
             margin-bottom: 30px;
         }
         .image-thumb-container {
-            display: none;
-            text-align: center;
+            // display: none;
+            // text-align: center;
             margin-bottom: 15px;
         }
         .image-thumb {
-            max-width: 20%;
+            max-width: 60px;
         }
         button {
             height: 40px;
