@@ -3,18 +3,17 @@
     <title-component></title-component>
 </div>
 
+<div class="search-title">
+    <i class="material-icons">location_searching</i>
+    <p>Search &amp; Sort</p>
+</div>
 <!-- SEARCH AREA -->
 <div class="search-sort">
     <!-- DROP DOWN CLICK DIRECTIVE FOR SORT -->
     <div class="sort-container" sort-click>
         <span class="sort-by">Sort By:</span>
-        <!-- <span class="menu-carrot">v</span> -->
         <i class="material-icons menu-carrot">keyboard_arrow_down</i>
-        <!-- <select class="product-select" ng-model="$ctrl.order">
-            <option value="name">Name *</option>
-            <option value="price">Price Low to High *</option>
-            <option value="-price">Price High to Low *</option>
-        </select> -->
+
         <div class="sort-drop">
             <ul class="product-select">
                 <li ng-click="$ctrl.sortBy('name')">Name</li>

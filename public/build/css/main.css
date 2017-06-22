@@ -64,6 +64,9 @@ p {
   max-width: 1025px;
   margin: 0 auto; }
 
+button:hover {
+  cursor: pointer; }
+
 .store-container {
   width: 90%;
   margin: 0 auto;
@@ -162,13 +165,19 @@ p {
         text-align: left; } }
 
 .hero-image {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/chris-biron-99839.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/vlad-deep-218496.jpg");
   background-size: cover;
   height: 450px;
   background-position: center;
-  margin-bottom: 50px;
   margin-bottom: 40px;
   transition: .2s all ease; }
+
+.search-title {
+  margin-bottom: 20px;
+  text-align: center; }
+  .search-title p {
+    text-transform: uppercase;
+    font-weight: 100; }
 
 .search-sort {
   display: flex;
@@ -181,7 +190,7 @@ p {
 
 .sort-container {
   width: 85%;
-  margin: 0 auto 30px;
+  margin: 0 auto 50px;
   background: black;
   color: white;
   position: relative;
@@ -190,6 +199,8 @@ p {
   display: flex;
   align-items: center;
   padding-left: 12px; }
+  .sort-container:hover {
+    cursor: pointer; }
 
 .sort-by {
   font-weight: 100;
@@ -337,7 +348,7 @@ select.product-select {
 
 @media (min-width: 992px) {
   .hero-image {
-    height: 600px;
+    height: 650px;
     background-position: center;
     background-position: 50% 95%; }
   .jackets-title {
@@ -547,7 +558,7 @@ select.product-select {
       width: 85px;
       font-size: 85px; }
     .title-container .title-title {
-      font-size: 3.125em; }
+      font-size: 3.5em; }
     .title-container h5 {
       font-size: 1.125em; } }
 
