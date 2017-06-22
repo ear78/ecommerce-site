@@ -20,19 +20,8 @@ app.use(express.static('./public'));
 
 var productCtrl = require('./controllers/productCtrl.js');
 
-// app.post('/email', function(req,res,next){
-//     db.post_email([req.body.email], function(err, email){
-//             res.status(200).json(email);
-//             console.log('added email!');
-//     })
-// });
 app.post('/email', productCtrl.postEmail);
 // app.get('/jackets', productCtrl.getJackets);
-
-
-// db.add_product(function(err,products){
-//     console.log(err,"product added");
-// });
 
 
 
